@@ -1,0 +1,58 @@
+<?php
+/**
+*
+* This file is part of the phpBB Forum Software package.
+*
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+*
+*/
+
+/**
+* DO NOT CHANGE
+*/
+if (!defined('IN_PHPBB'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
+// <!-- NE MIJENJAJ -->
+// Ovo je službena phpBB verzija prijevoda prevedena u potpunosti s engleske originalne verzije
+// @Hrvatska jezična datoteka A.Karlović - <http://www.phpbb.com.hr>
+// objavljeno pod @licencom GNU General Public License, version 2 (GPL-2.0) 
+// za potpuna prava copyright  i indformacije o licenci korištenja phpBB foruma docs/CREDITS.txt file
+// <!-- NE MIJENJAJ -->
+
+$lang = array_merge($lang, array(
+	'CAPTCHA_QA'				=> 'Q&amp;A',
+	'CONFIRM_QUESTION_EXPLAIN'	=> 'Ovo pitanje služi za sprečavanje za automatiziranog oblika odgovora, na primjer pomoću spam robota.',
+	'CONFIRM_QUESTION_WRONG'	=> 'Unjeli ste nevažeći odgovor na pitanje.',
+
+	'QUESTION_ANSWERS'			=> 'Odgovor',
+	'ANSWERS_EXPLAIN'			=> 'Molimo unesite važeći odgovor, unesite samo jedan po retku.',
+	'CONFIRM_QUESTION'			=> 'Pitanje',
+
+	'ANSWER'					=> 'Odgovor',
+	'EDIT_QUESTION'				=> 'Uredi pitanje',
+	'QUESTIONS'					=> 'Pitanje',
+	'QUESTIONS_EXPLAIN'			=> 'Prilikom svakog slanja obrasca u kojem je omogućen Q&amp;A plugin, korisnicima će biti postavljeno jedno od navedenih pitanja. Za korištenje ovog dodatka mora biti postavljeno barem jedno pitanje u zadanom jeziku. Ova bi pitanja trebala biti lagana za ciljane korisnike no izvan sposobnosti bota da ih se pomoću Google™ pretaži. Najbolji se rezultati postižu koristite li velik set pitanja koji se redovito periodično mijenja. Omogućite zadane postavke sa izmjenom pitanja koja uključuju interpunkcije i razmake.',
+	'QUESTION_DELETED'			=> 'Pitanje je obrisano',
+	'QUESTION_LANG'				=> 'Jezik',
+	'QUESTION_LANG_EXPLAIN'		=> 'Jezik ovog pitanja i odgovor su napisani.',
+	'QUESTION_STRICT'			=> 'Striktna kontrola',
+	'QUESTION_STRICT_EXPLAIN'	=> 'Omogućite korištenje miješanja, interpukcijskih znakova i razmaka.',
+
+	'QUESTION_TEXT'				=> 'Pitanje',
+	'QUESTION_TEXT_EXPLAIN'		=> 'Postavljeno pitanje korisniku.',
+
+	'QA_ERROR_MSG'				=> 'Molimo da ispunite sva polja i unesete barem jedan odgovor.',
+	'QA_LAST_QUESTION'			=> 'Ne možete obrisati sva pitanja, sve dok je plugin aktivan.',
+
+));
