@@ -1,0 +1,148 @@
+<?php
+/**
+*
+* This file is part of the phpBB Forum Software package.
+*
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+*
+*/
+
+/**
+* DO NOT CHANGE
+*/
+if (!defined('IN_PHPBB'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
+// <!-- NE MIJENJAJ -->
+// Ovo je službena phpBB verzija prijevoda prevedena u potpunosti s engleske originalne verzije
+// @Hrvatska jezična datoteka A.Karlović - <https://www.phpbb.com.hr>
+// objavljeno pod @licencom GNU General Public License, version 2 (GPL-2.0) 
+// za potpuna prava copyright  i indformacije o licenci korištenja phpBB foruma docs/CREDITS.txt file
+// <!-- NE MIJENJAJ -->
+
+$lang = array_merge($lang, array(
+	'ABOUT_USER'			=> 'Profil',
+	'ACTIVE_IN_FORUM'		=> 'Najaktivniji forum',
+	'ACTIVE_IN_TOPIC'		=> 'Najaktivnija tema',
+	'ADD_FOE'				=> 'Dodaj nepoželjne',
+	'ADD_FRIEND'			=> 'Dodaj prijatelja',
+	'AFTER'					=> 'Nakon',
+
+	'ALL'					=> 'Sve',
+
+	'BEFORE'				=> 'Prije',
+
+	'CC_EMAIL'				=> 'Pošalji kopiju na svoj email.',
+	'CONTACT_ADMIN'			=> 'Kontaktiraj Forum Administratora',
+
+	'DEST_LANG'				=> 'Jezik',
+	'DEST_LANG_EXPLAIN'		=> 'Odaberite odgovarajući jezik (ako je dostupan) za primatelja ove poruke.',
+
+	'EDIT_PROFILE'			=> 'Uredi profil',
+
+	'EMAIL_BODY_EXPLAIN'	=> 'Ova poruka će biti poslana kao običan tekst, ne uključuje bilo koji HTML ili BBKod. Povratna adresa poruke bit će vaša e-mail adresa.',
+	'EMAIL_DISABLED'		=> 'Žao nam je ali sve su funkcije onemogućene.',
+	'EMAIL_SENT'			=> 'Email je poslan.',
+	'EMAIL_TOPIC_EXPLAIN'	=> 'Ova poruka će biti poslana kao običan tekst, ne uključuje bilo koji HTML ili BBKod. Povratna adresa poruke bit će vaša e-mail adresa.',
+	'EMPTY_MESSAGE_EMAIL'	=> 'Morate unjeti poruku kako bi bila poslana.',
+	'EMPTY_MESSAGE_IM'		=> 'Morate unjeti poruku kako bi bila poslana.',
+	'EMPTY_NAME_EMAIL'		=> 'Morate unjeti naziv primatelja.',
+	'EMPTY_SENDER_EMAIL'	=> 'Morate unjeti valjanu email adresu.',
+	'EMPTY_SENDER_NAME'		=> 'Morate unjeti ime.',
+	'EMPTY_SUBJECT_EMAIL'	=> 'Morate specificirati naslov.',
+	'EQUAL_TO'				=> 'Jednak',
+
+	'FIND_USERNAME_EXPLAIN'	=> 'Koristite ovaj obrazac za pretraživanje određenih članova. Ne morate popuniti sva polja. Koristite * znak za pretraživanje određenih riječi. Za datume koristite format <kbd> GGGG-MM-DD </ kbd>, npr <SAMP> 2004/02/29 </ SAMP>. Koristite kvadratiće za označavanje, ako su omogućeni,  za odabir jednog ili više korisničkih imena (nekoliko korisničkih imena može biti prihvaćeno, ovisno o samom obrascu) i pritisnite gumb Odaberi označeno.',
+	'FLOOD_EMAIL_LIMIT'		=> 'Ne možete poslati e-mail u ovom trenutku. Molimo pokušajte ponovno kasnije..',
+
+	'GROUP_LEADER'			=> 'Vođa grupe',
+
+	'HIDE_MEMBER_SEARCH'	=> 'Sakrij pretragu članova',
+
+	'IM_ADD_CONTACT'		=> 'Dodaj kontakt',
+	'IM_DOWNLOAD_APP'		=> 'preuzimanje aplikacije',
+	'IM_JABBER'				=> 'Imajte na umu da korisnici mogu odabrati da ne primaju neželjene instant poruke.',
+	'IM_JABBER_SUBJECT'		=> 'Ova je automatska poruka!!! Ne odgovarajte!!! Poruka od korisnika %1$s na %2$s.',
+	'IM_MESSAGE'			=> 'Vaša poruka',
+	'IM_NAME'				=> 'Vaše ime',
+	'IM_NO_DATA'			=> 'Nema pogodne informacije za kontakt za tog korisnika.',
+	'IM_NO_JABBER'			=> 'Oprostite, izravna Jabber poruka korisnicima nije podržana na ovom forumu. Trebat će vam instaliran Jabber kako bi mogli kontaktirati primatelja.',
+	'IM_RECIPIENT'			=> 'Primatelj',
+	'IM_SEND'				=> 'Šalji poruku',
+	'IM_SEND_MESSAGE'		=> 'Šalji poruke',
+	'IM_SENT_JABBER'		=> 'Vaša poruka za %1$s je poslana uspješno.',
+	'IM_USER'				=> 'Šalji instant poruku',
+
+	'LAST_ACTIVE'				=> 'Zadnja aktivnost',
+	'LESS_THAN'					=> 'Manje od',
+	'LIST_USERS'				=> array(
+		1	=> '%d user',
+		2	=> '%d users',
+	),
+	'LOGIN_EXPLAIN_TEAM'		=> 'Pravila foruma za pregled Tima zahtjevaju da budete logirani korisničkim imenom i lozinkom.',
+	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'Pravila foruma za pregled članova zahtjevaju da budete logirani korisničkim imenom i lozinkom.',
+	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Pravila foruma za pretraživanje članova zahtjevaju da budete logirani korisničkim imenom i lozinkom.',
+	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Pravila foruma za pregled profila zahtjevaju da budete logirani korisničkim imenom i lozinkom.',
+
+	'MORE_THAN'				=> 'Više od',
+
+	'NO_CONTACT_FORM'		=> 'Kontakt forma za slanje poruke forum administratoru je onemogućena.',
+	'NO_CONTACT_PAGE'		=> 'Kontakt stranica za kontaktiranje forum administratora je onemogućena.',
+	'NO_EMAIL'				=> 'Nemate ovlasti slanja poruke ovom korisniku.',
+	'NO_VIEW_USERS'			=> 'Niste autorizirani na ovom forumu za pregled članova / profila.',
+
+	'ORDER'					=> 'Redosljed',
+	'OTHER'					=> 'Ostalo',
+
+	'POST_IP'				=> 'Postano sa IP/domene',
+
+	'REAL_NAME'				=> 'Ime primatelja',
+	'RECIPIENT'				=> 'Primatelj',
+	'REMOVE_FOE'			=> 'Obriši nepoželjne',
+	'REMOVE_FRIEND'			=> 'Obriši prijatelja',
+
+	'SELECT_MARKED'			=> 'Odaberite označeno',
+	'SELECT_SORT_METHOD'	=> 'Odaberite metodu',
+	'SENDER_EMAIL_ADDRESS'	=> 'Vaš email',
+	'SENDER_NAME'			=> 'Vaše ime',
+	'SEND_ICQ_MESSAGE'		=> 'Šalji ICQ poruku',
+	'SEND_IM'				=> 'Instant poruka',
+	'SEND_JABBER_MESSAGE'	=> 'Šalji Jabber poruku',
+	'SEND_MESSAGE'			=> 'Poruka',
+	'SEND_YIM_MESSAGE'		=> 'Šalji YIM poruku',
+	'SORT_EMAIL'			=> 'Email',
+	'SORT_LAST_ACTIVE'		=> 'Zadnja aktivnost',
+	'SORT_POST_COUNT'		=> 'Broj postova',
+
+	'USERNAME_BEGINS_WITH'	=> 'Username begins with',
+	'USER_ADMIN'			=> 'Administer user',
+	'USER_BAN'				=> 'Banning',
+	'USER_FORUM'			=> 'Korisnička statistika',
+	'USER_LAST_REMINDED'	=> array(
+		0		=> 'Nema poslanih podsjetnika u ovom trenutku',
+		1		=> '%1$d poslan podsjetnik<br />» %2$s',
+		2		=> '%1$d poslana podsjetnika<br />» %2$s',
+		3		=> '%1$d podsjetnika poslano<br />» %2$s',
+	),
+	'USER_ONLINE'			=> 'Online',
+	'USER_PRESENCE'			=> 'Forum prisutnost',
+	'USERS_PER_PAGE'		=> 'Korisnika po stranici',
+
+	'VIEWING_PROFILE'		=> 'Pregled profila - %s',
+	'VIEW_FACEBOOK_PROFILE'	=> 'Pregled Facebook profila',
+	'VIEW_SKYPE_PROFILE'	=> 'Pregled Skype profila',
+	'VIEW_TWITTER_PROFILE'	=> 'Pregled Twitter profila',
+	'VIEW_YOUTUBE_CHANNEL'	=> 'PregledYouTube kanala',
+	'VIEW_GOOGLEPLUS_PROFILE' => 'Pregled Google+ profila',
+));
