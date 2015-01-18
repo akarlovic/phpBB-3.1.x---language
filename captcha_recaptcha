@@ -1,0 +1,46 @@
+<?php
+/**
+*
+* This file is part of the phpBB Forum Software package.
+*
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+*
+*/
+
+/**
+* DO NOT CHANGE
+*/
+if (!defined('IN_PHPBB'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
+// <!-- NE MIJENJAJ -->
+// Ovo je službena phpBB verzija prijevoda prevedena u potpunosti s engleske originalne verzije
+// @Hrvatska jezična datoteka A.Karlović - <http://www.phpbb.com.hr>
+// objavljeno pod @licencom GNU General Public License, version 2 (GPL-2.0) 
+// za potpuna prava copyright  i indformacije o licenci korištenja phpBB foruma docs/CREDITS.txt file
+// <!-- NE MIJENJAJ -->
+
+$lang = array_merge($lang, array(
+	'RECAPTCHA_LANG'				=> 'hr',
+	'RECAPTCHA_NOT_AVAILABLE'		=> 'Kako bi koristili reCaptcha, morate kreirati račun na <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
+	'RECAPTCHA_INCORRECT'			=> 'Vizualna potvrda broja koji ste poslali nije točna.',
+
+	'RECAPTCHA_PUBLIC'				=> 'Javni reCaptcha ključ',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Vaš javni reCaptcha ključ. Ključ je moguće dobiti na <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_PRIVATE'				=> 'Privatni reCaptcha ključ',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Vaš privatni reCAPTCHA ključ. Može se dobiti na<a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+
+	'RECAPTCHA_EXPLAIN'				=> 'Kako bi spriječili automatske prijave, molimo da unesete prikazena riječi ispod.',
+	'RECAPTCHA_SOCKET_ERROR'		=> 'Došlo je do problema sa povezivanjem RECAPTCHA servisa: spajanje nije omogućeno. Pokušajte kasnije.',
+));
