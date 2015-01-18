@@ -1,0 +1,90 @@
+<?php
+/**
+*
+* This file is part of the phpBB Forum Software package.
+*
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+*
+*/
+
+/**
+* DO NOT CHANGE
+*/
+if (!defined('IN_PHPBB'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
+// <!-- NE MIJENJAJ -->
+// Ovo je službena phpBB verzija prijevoda prevedena u potpunosti s engleske originalne verzije
+// @Hrvatska jezična datoteka - <http://www.phpbb.com.hr>
+// objavljeno pod @licencom GNU General Public License, version 2 (GPL-2.0) 
+// za potpuna prava copyright  i indformacije o licenci korištenja phpBB foruma docs/CREDITS.txt file
+// <!-- NE MIJENJAJ -->
+
+$lang = array_merge($lang, array(
+	'ALREADY_DEFAULT_GROUP'		=> 'Odabrana grupa je već zadana grupa.',
+	'ALREADY_IN_GROUP'			=> 'Vi ste već član odabrane grupe.',
+	'ALREADY_IN_GROUP_PENDING'	=> 'Vi ste već zatražili pristup odabranoj grupi. Budite strpljivi, pričekajte odobrenje moderatora ili administratora grupe.',
+
+	'CANNOT_JOIN_GROUP'			=> 'Vama nije moguć pristup ovoj grupi. Imate mogućnost pristupanju samo otvorenim grupama.',
+	'CANNOT_RESIGN_GROUP'		=> 'Nemate mogućnost samostalnog istupanja iz ove grupe. To je moguće samo iz grupa otvorenog tipa.',
+	'CHANGED_DEFAULT_GROUP'		=> 'Zadana grupa je uspješno promjenjena.',
+
+	'GROUP_AVATAR'						=> 'Avatar grupe',
+	'GROUP_CHANGE_DEFAULT'				=> 'Da li ste sigurni da želite promjeniti zadano članstvo grupe “%s”?',
+	'GROUP_CLOSED'						=> 'Zatvorena',
+	'GROUP_DESC'						=> 'Opis grupe',
+	'GROUP_HIDDEN'						=> 'Sakrivena',
+	'GROUP_INFORMATION'					=> 'Informacije korisničke grupe',
+	'GROUP_IS_CLOSED'					=> 'Ovo je zatvorena grupa, novi članovi mogu se pridružiti samo na poziv vođe grupe.',
+	'GROUP_IS_FREE'						=> 'Ovo je  slobodna grupa otvorenog tipa, svi su novi članovi u njoj dobrodošli.',
+	'GROUP_IS_HIDDEN'					=> 'Ovo je skrivena grupa, samo članovi grupe mogu vidjeti popis članova.',
+	'GROUP_IS_OPEN'						=> 'Grupa otvorenog tipa, članovi mogu zatražiti pristup grupi.',
+	'GROUP_IS_SPECIAL'					=> 'Ovo je posebna grupa, grupa sa administratorskim ovlastima na forumu.',
+	'GROUP_JOIN'						=> 'Pridružite se grupi',
+	'GROUP_JOIN_CONFIRM'				=> 'Da li ste sigurni da želite pristupiti ovoj grupi?',
+	'GROUP_JOIN_PENDING'				=> 'Zahtjev za pridruživanju grupi',
+	'GROUP_JOIN_PENDING_CONFIRM'		=> 'Da li ste sigurni da želite zatražiti ulazak u odabranu grupu?',
+	'GROUP_JOINED'						=> 'Uspješno ste se pridružili odabranoj grupi.',
+	'GROUP_JOINED_PENDING'				=> 'Uspješno ste zatražili članstvo grupi. Članstvo sada treba odobriti voditelj odabrane grupe.',
+	'GROUP_LIST'						=> 'Upravljanje korisnicima',
+	'GROUP_MEMBERS'						=> 'Članovi grupe',
+	'GROUP_NAME'						=> 'Ime grupe',
+	'GROUP_OPEN'						=> 'Otvorena',
+	'GROUP_RANK'						=> 'Status grupe',
+	'GROUP_RESIGN_MEMBERSHIP'			=> 'Napusti grupu',
+	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> 'Da li ste sigurni da želite napustiti odabranu grupu?',
+	'GROUP_RESIGN_PENDING'				=> 'Napuštanje članstva grupe je u tijeku te je u statusu čekanja.',
+	'GROUP_RESIGN_PENDING_CONFIRM'		=> 'Da li ste sigurni da želite potvrditi napuštanje grupe?',
+	'GROUP_RESIGNED_MEMBERSHIP'			=> 'Vi ste uspješno uklonjeni iz odabrane grupe.',
+	'GROUP_RESIGNED_PENDING'			=> 'Vaše je članstvo uspješno uklonjeno iz odabrane grupe.',
+	'GROUP_TYPE'						=> 'Vrsta grupe',
+	'GROUP_UNDISCLOSED'					=> 'Sakrivena grupa',
+	'FORUM_UNDISCLOSED'					=> 'Moderiranje sakrivenog(ih) foruma',
+
+	'LOGIN_EXPLAIN_GROUP'	=> 'Morate biti prijavljeni korisničkim imenom i lozinkom kako bi vidjeli detalje grupe.',
+
+	'NO_LEADERS'					=> 'Vi trenutno niste voditelj ni jedne grupe na forumu.',
+	'NOT_LEADER_OF_GROUP'			=> 'Tražena opcija ne može biti poduzeta jer vi trenutno niste voditelj odabrane grupe.',
+	'NOT_MEMBER_OF_GROUP'			=> 'Tražena opcija ne može biti poduzeta jer vi trenutno niste član odabrane grupe ili moguće vaše članstvo još nije potvrđeno od voditelja grupe.',
+	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'Vi ne možete napustiti zadanu grupu na forumu, morate biti član bar jedne grupe odnosno morate imati zadanu grupu.',
+
+	'PRIMARY_GROUP'		=> 'Zadana grupa',
+
+	'REMOVE_SELECTED'		=> 'Ukloni označeno',
+
+	'USER_GROUP_CHANGE'			=> 'Iz “%1$s” grupe u “%2$s”',
+	'USER_GROUP_DEMOTE'			=> 'Degradiraj iz statusa voditelja',
+	'USER_GROUP_DEMOTE_CONFIRM'	=> 'Da li ste sigurni da želite istupiti iz voditelja grupe u običnog forum korisnika?',
+	'USER_GROUP_DEMOTED'		=> 'Uspješno ste izvršili svoju degradaciju iz statusa voditelja.',
+));
