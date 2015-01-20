@@ -1,0 +1,68 @@
+<?php
+/**
+*
+* This file is part of the phpBB Forum Software package.
+*
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+*
+*/
+
+/**
+* DO NOT CHANGE
+*/
+if (!defined('IN_PHPBB'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
+// <!-- NE MIJENJAJ -->
+// Ovo je službena phpBB verzija prijevoda prevedena u potpunosti s engleske originalne verzije
+// @Hrvatska jezična datoteka - <http://www.phpbb.com.hr>
+// objavljeno pod @licencom GNU General Public License, version 2 (GPL-2.0) 
+// za potpuna prava copyright  i indformacije o licenci korištenja phpBB foruma docs/CREDITS.txt file
+// <!-- NE MIJENJAJ -->
+
+$lang = array_merge($lang, array(
+	'ACTIVE_TOPICS'			=> 'Aktivne teme',
+	'ANNOUNCEMENTS'			=> 'Najave',
+
+	'FORUM_PERMISSIONS'		=> 'Forumska dopuštenja',
+
+	'ICON_ANNOUNCEMENT'		=> 'Objava',
+	'ICON_STICKY'			=> 'Bitno',
+
+	'LOGIN_NOTIFY_FORUM'	=> 'Imate obavjest vezano uz ovaj forum, prijavite se za pregled.',
+
+	'MARK_TOPICS_READ'		=> 'Označi teme kao pročitane',
+
+	'NEW_POSTS_HOT'			=> 'Novi post [ Popularno ]',	// Not used anymore
+	'NEW_POSTS_LOCKED'		=> 'Novi post [ Zaključano]',	// Not used anymore
+	'NO_NEW_POSTS_HOT'		=> 'Nema novih postova [ Popularno ]',	// Not used anymore
+	'NO_NEW_POSTS_LOCKED'	=> 'Nema novih postova [ Zaključano ]',	// Not used anymore
+	'NO_READ_ACCESS'		=> 'Nemate ovlaštenja za čitanje tema u ovom forumu.',
+	'NO_UNREAD_POSTS_HOT'		=> 'Nema nepročitanih postova [ Popularno ]',
+	'NO_UNREAD_POSTS_LOCKED'	=> 'Nema nepročitanih postova [ Zaključano ]',
+
+	'POST_FORUM_LOCKED'		=> 'Forum je zaključan',
+
+	'TOPICS_MARKED'			=> 'Teme ovog foruma su označene kao pročitane',
+
+	'UNREAD_POSTS_HOT'		=> 'Nepročitani postovi [ Popularno ]',
+	'UNREAD_POSTS_LOCKED'	=> 'Nepročitani postovi [ Zaključano ]',
+
+	'VIEW_FORUM'			=> 'Pogledaj forum',
+	'VIEW_FORUM_TOPICS'		=> array(
+		1	=> '%d temu',
+		2	=> '%d teme',
+		3	=> '%d tema',
+	),
+));
