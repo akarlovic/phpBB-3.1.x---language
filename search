@@ -1,0 +1,124 @@
+<?php
+/**
+*
+* This file is part of the phpBB Forum Software package.
+*
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+*
+*/
+
+/**
+* DO NOT CHANGE
+*/
+if (!defined('IN_PHPBB'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
+// <!-- NE MIJENJAJ -->
+// Ovo je službena phpBB verzija prijevoda prevedena u potpunosti s engleske originalne verzije
+// @Hrvatska jezična datoteka - <http://www.phpbb.com.hr>
+// objavljeno pod @licencom GNU General Public License, version 2 (GPL-2.0) 
+// za potpuna prava copyright  i indformacije o licenci korištenja phpBB foruma docs/CREDITS.txt file
+// <!-- NE MIJENJAJ -->
+
+$lang = array_merge($lang, array(
+	'ALL_AVAILABLE'			=> 'Sve dostupno',
+	'ALL_RESULTS'			=> 'Svi rezultati',
+
+	'DISPLAY_RESULTS'		=> 'Prikaži rezultate kao',
+
+	'FOUND_SEARCH_MATCHES'		=> array(
+		0	=> 'Ništa nije pronađeno',
+		1	=> 'Pronađen je %d rezultat pretrage',
+		2	=> 'Pronađena su %d rezultata pretrage',
+		3	=> 'Pronađena su %d rezultata pretrage',
+	),
+	'FOUND_MORE_SEARCH_MATCHES'		=> array(
+		0	=> 'Ništa nije pronađeno',
+		1	=> 'Pronađen je %d rezultat pretrage',
+		2	=> 'Pronađena su %d rezultata pretrage',
+		3	=> 'Pronađena su %d rezultata pretrage',
+	),
+
+	'GLOBAL'				=> 'Globalna obavijest',
+
+	'IGNORED_TERMS'			=> 'Ignoriraj',
+	'IGNORED_TERMS_EXPLAIN'	=> 'Sljedeće riječi u vašem upitu su zanemarene jer sadrže prevelik broj uobičajenih riječi: <strong>%s</strong>.',
+
+	'JUMP_TO_POST'			=> 'Skoči na post',
+
+	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'Forum zahtjeva da budete registrirani i prijavljeni kako bi vidjeli svoje postove.',
+	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'Forum zahtjeva da budete registrirani i prijavljeni kako bi vidjeli svoje nove postove.',
+	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'Forum zahtjeva da budete registrirani i prijavljeni kako bi vidjeli postove od svoje zadnje posjete.',
+
+	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
+		1	=> 'Upisali ste previše riječi za pretragu. Molimo da ne unosite više od %1$d riječi.',
+		2	=> 'Upisali ste previše riječi za pretragu. Molimo da ne unosite više od %1$d riječi.',
+	),
+
+	'NO_KEYWORDS'			=> 'Morate upisati barem jednu riječ za pretragu. Svaka upisana riječ mora sadržavati najmanje %s i svaka upisana riječ mora sadržavati %s bez zamjenskih znakova.',
+	'NO_RECENT_SEARCHES'	=> 'Nema nedavnih pretraživanja.',
+	'NO_SEARCH'				=> 'Žao nam je ali nema dopuštenja za pretraživanje sustava.',
+	'NO_SEARCH_RESULTS'		=> 'Nema pronađenih odgovora.',
+	'NO_SEARCH_TIME'		=> array(
+		1	=> 'Žao nam je u ovom trenutku ne možete koristiti pretraživanje. Pokušajte ponovno za %d sekundu.',
+		2	=> 'Žao nam je u ovom trenutku ne možete koristiti pretraživanje. Pokušajte ponovno za %d sekunde.',
+		3	=> 'Žao nam je u ovom trenutku ne možete koristiti pretraživanje. Pokušajte ponovno za %d sekundi.',
+	),
+	'NO_SEARCH_UNREADS'		=> 'Žao nam je na ovom forumu onemogućeno je pretraživanje novih postova.',
+	'WORD_IN_NO_POST'		=> 'Nema postova koji sadrže riječ <strong>%s</strong> ista nije dio ni jednog posta.',
+	'WORDS_IN_NO_POST'		=> 'Nema pronađenih postova jer riječ <strong>%s</strong> nije upisana ni u jedan post.',
+
+	'POST_CHARACTERS'		=> 'znakova u postu',
+	'PHRASE_SEARCH_DISABLED'	=> 'Pretraživanje točnog određenog izraza nije podržano na ovom forumu.',
+
+	'RECENT_SEARCHES'		=> 'Zadnja pretraga',
+	'RESULT_DAYS'			=> 'Ograniči rezultate na prethodne',
+	'RESULT_SORT'			=> 'Sortiraj rezultate po',
+	'RETURN_FIRST'			=> 'Prikaži prvih',
+	'GO_TO_SEARCH_ADV'	=> 'Idi na naprednu pretragu',
+
+	'SEARCHED_FOR'				=> 'Traži korišten termin',
+	'SEARCHED_TOPIC'			=> 'Pretraži temu',
+	'SEARCHED_QUERY'			=> 'Pretraženo je',
+	'SEARCH_ALL_TERMS'			=> 'Pretraži sve izraze ili koristi nako kako je unešeno',
+	'SEARCH_ANY_TERMS'			=> 'Potraži bilo koju riječ',
+	'SEARCH_AUTHOR'				=> 'Pretraži prema autoru',
+	'SEARCH_AUTHOR_EXPLAIN'		=> 'Koristite * kao zamjenski znak pretrage.',
+	'SEARCH_FIRST_POST'			=> 'Samo prvi post u temi',
+	'SEARCH_FORUMS'				=> 'Potraži u forumu',
+	'SEARCH_FORUMS_EXPLAIN'		=> 'Odaberite forum ili forume koje želite pretraživati. podforumi automatizmom ulaze u pretragu ukoliko ne isključite "Pretraži podforume", odnosno ako ne želite li pretragu podforuma u nastavku podešavanja jednostavno stavite ne.',
+	'SEARCH_IN_RESULTS'			=> 'Pretraživanje prema rezultatima',
+	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Upiši <strong>+</strong> ispred riječi koja mora biti uključena u rezultat pretrag i <strong>-</strong> ispred riječi koja ne smije uključena u rezultat pretrage. Listu riječi odvojite sa znakom <strong>|</strong> stavite zagradu ako samo jedna od riječi mora biti pronađena. Koristite znak * kao zamjenski znak.',
+	'SEARCH_MSG_ONLY'			=> 'Samo tekstualne poruke',
+	'SEARCH_OPTIONS'			=> 'Opcije pretraživanja',
+	'SEARCH_QUERY'				=> 'Postavke parametara pretraživanja',
+	'SEARCH_SUBFORUMS'			=> 'Pretraži podforume',
+	'SEARCH_TITLE_MSG'			=> 'Postovi i tekstualne poruke',
+	'SEARCH_TITLE_ONLY'			=> 'Samo naslove tema',
+	'SEARCH_WITHIN'				=> 'Traži unutar',
+	'SORT_ASCENDING'			=> 'Uzlazno od A do Ž',
+	'SORT_AUTHOR'				=> 'Autor',
+	'SORT_DESCENDING'			=> 'Silazno od Ž do A',
+	'SORT_FORUM'				=> 'Forum',
+	'SORT_POST_SUBJECT'			=> 'Naslovu posta',
+	'SORT_TIME'					=> 'Vremenu posta',
+	'SPHINX_SEARCH_FAILED'		=> 'Pretraživanje nije uspjelo: %s',
+	'SPHINX_SEARCH_FAILED_LOG'	=> 'Oprostite, pretraživanje nije uspjelo. Više informacija o neuspjelom pretraživanju foruma spremljene su u zapisniku grešaka.',
+
+	'TOO_FEW_AUTHOR_CHARS'	=> array(
+		1	=> 'Morate upisati najmenje %d znak imena autora.',
+		2	=> 'Morate upisati najmenje %d znaka imena autora.',
+		3	=> 'Morate upisati najmenje %d znakova imena autora.',
+	),
+));
