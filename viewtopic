@@ -1,0 +1,122 @@
+<?php
+/**
+*
+* This file is part of the phpBB Forum Software package.
+*
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+*
+*/
+
+/**
+* DO NOT CHANGE
+*/
+if (!defined('IN_PHPBB'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
+// <!-- NE MIJENJAJ -->
+// Ovo je službena phpBB verzija prijevoda prevedena u potpunosti s engleske originalne verzije
+// @Hrvatska jezična datoteka - <http://www.phpbb.com.hr>
+// objavljeno pod @licencom GNU General Public License, version 2 (GPL-2.0) 
+// za potpuna prava copyright  i indformacije o licenci korištenja phpBB foruma docs/CREDITS.txt file
+// <!-- NE MIJENJAJ -->
+
+$lang = array_merge($lang, array(
+	'APPROVE'								=> 'Odobri',
+	'ATTACHMENT'						=> 'Privitak',
+	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'Privitak nije omogućen.',
+
+	'BOOKMARK_ADDED'		=> 'Tema je označena.',
+	'BOOKMARK_ERR'			=> 'Neuspjelo označavanje. Pokušajte ponovno.',
+	'BOOKMARK_REMOVED'		=> 'Uspješno provedeno odznačavanje.',
+	'BOOKMARK_TOPIC'		=> 'Označi temu',
+	'BOOKMARK_TOPIC_REMOVE'	=> 'Ukoni iz označenog',
+	'BUMPED_BY'				=> 'Zadnje bumpiranje %1$s u %2$s.',
+	'BUMP_TOPIC'			=> 'Bump post',
+
+	'CODE'					=> 'Kod',
+
+	'DELETE_TOPIC'			=> 'Obriši temu',
+	'DELETED_INFORMATION'	=> 'Obrisano %1$s u %2$s',
+	'DISAPPROVE'					=> 'Neodobreno',
+	'DOWNLOAD_NOTICE'		=> 'Vi nemate potrebno odobrenje kako bi vidjeli privitak ovog posta.',
+
+	'EDITED_TIMES_TOTAL'	=> array(
+		1	=> 'Zadnji uređivao %2$s u %3$s, uređivano %1$d puta ukupno.',
+		2	=> 'Zadnji uređivao %2$s u %3$s, uređivano %1$d puta ukupno.',
+	),
+	'EMAIL_TOPIC'			=> 'Šaji temu na email',
+	'ERROR_NO_ATTACHMENT'	=> 'Označeni privitak više nije dostupan.',
+
+	'FILE_NOT_FOUND_404'	=> 'Datoteka <strong>%s</strong> ne postoji.',
+	'FORK_TOPIC'			=> 'Kopiraj temu',
+	'FULL_EDITOR'			=> 'Puni editor &amp; Provjeri',
+
+	'LINKAGE_FORBIDDEN'		=> 'Nemate dopuštenje za predled / preuzimanje / link na ovu stranicu.',
+	'LOGIN_NOTIFY_TOPIC'	=> 'Pretplačeni ste na ovu temu, prijavite se kako bi ju vidjeli.',
+	'LOGIN_VIEWTOPIC'		=> 'Forum zahtjeva registraciju i prijavu kako bi vidjeli ovu temu.',
+
+	'MAKE_ANNOUNCE'				=> 'Promjeni u “Najavu”',
+	'MAKE_GLOBAL'				=> 'Promjeni u “Globalno”',
+	'MAKE_NORMAL'				=> 'Promjeni u “Standardan Post”',
+	'MAKE_STICKY'				=> 'Promjenu u “Sticky”',
+	'MAX_OPTIONS_SELECT'		=> array(
+		1	=> 'Možete odabrati <strong>%d</strong> opciju',
+		2	=> 'Možete odabrati do <strong>%d</strong> opcije',
+	),
+	'MISSING_INLINE_ATTACHMENT'	=> 'Privitak <strong>%s</strong> više nije dostupan',
+	'MOVE_TOPIC'				=> 'Premjesti temu',
+
+	'NO_ATTACHMENT_SELECTED'=> 'Niste odabrali privitak za preuzimanje ili pregled.',
+	'NO_NEWER_TOPICS'		=> 'Nema novijih tema na forumu.',
+	'NO_OLDER_TOPICS'		=> 'Nema starijih tema na forumu.',
+	'NO_UNREAD_POSTS'		=> 'Nema novih nepročitanih postova u temi.',
+	'NO_VOTE_OPTION'		=> 'Morate navesti opciju prilikom glasanja.',
+	'NO_VOTES'				=> 'Nema glasova',
+
+	'POLL_ENDED_AT'			=> 'Anketa završava %s',
+	'POLL_RUN_TILL'			=> 'Anketa traje do %s',
+	'POLL_VOTED_OPTION'		=> 'Vaš glas za tu opciju',
+	'POST_DELETED_RESTORE'	=> 'Ovaj post je obrisan. Ne može biti vraćen.',
+	'PRINT_TOPIC'			=> 'Pregled printa',
+
+	'QUICK_MOD'				=> 'Brzi-mod alati',
+	'QUICKREPLY'			=> 'Brzi odgovor',
+	'QUOTE'					=> 'Citat',
+
+	'REPLY_TO_TOPIC'		=> 'Repliciraj temu',
+	'RESTORE'				=> 'Vrati',
+	'RESTORE_TOPIC'			=> 'Vrati temu',
+	'RETURN_POST'			=> '%sPovratak na post%s',
+
+	'SUBMIT_VOTE'			=> 'Prihvati glas',
+
+	'TOPIC_TOOLS'			=> 'Alati teme',
+	'TOTAL_VOTES'			=> 'Ukupno glasova',
+
+	'UNLOCK_TOPIC'			=> 'Otključaj temu',
+
+	'VIEW_INFO'				=> 'Detalji posta',
+	'VIEW_NEXT_TOPIC'		=> 'Sljedeća tema',
+	'VIEW_PREVIOUS_TOPIC'	=> 'Prethodna tema',
+	'VIEW_RESULTS'			=> 'Vidi rezultate',
+	'VIEW_TOPIC_POSTS'		=> array(
+		1	=> '%d post',
+		2	=> '%d posta',
+		3	=> '%d postova',
+	),
+	'VIEW_UNREAD_POST'		=> 'Prvi nepročitan post',
+	'VOTE_SUBMITTED'		=> 'Vaš glas je evidentiran.',
+	'VOTE_CONVERTED'		=> 'Promjena glasova nije podržana za konvertirane ankete.',
+
+));
