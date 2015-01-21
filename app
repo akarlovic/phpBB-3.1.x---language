@@ -25,7 +25,7 @@ if (empty($lang) || !is_array($lang))
 
 // <!-- NE MIJENJAJ -->
 // Ovo je službena phpBB verzija prijevoda prevedena u potpunosti s engleske originalne verzije
-// @Hrvatska jezična datoteka A.Karlović - <http://www.phpbb.com.hr>
+// @Hrvatska jezična datoteka - <http://www.phpbb.com.hr>
 // objavljeno pod @licencom GNU General Public License, version 2 (GPL-2.0) 
 // za potpuna prava copyright  i indformacije o licenci korištenja phpBB foruma docs/CREDITS.txt file
 // <!-- NE MIJENJAJ -->
