@@ -25,7 +25,7 @@ if (empty($lang) || !is_array($lang))
 
 // <!-- NE MIJENJAJ -->
 // Ovo je službena phpBB verzija prijevoda prevedena u potpunosti s engleske originalne verzije
-// @Hrvatska jezična datoteka A.Karlović - <http://www.phpbb.com.hr>
+// @Hrvatska jezična datoteka - <http://www.phpbb.com.hr>
 // objavljeno pod @licencom GNU General Public License, version 2 (GPL-2.0) 
 // za potpuna prava copyright  i indformacije o licenci korištenja phpBB foruma docs/CREDITS.txt file
 // <!-- NE MIJENJAJ -->
@@ -42,5 +42,5 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Vaš privatni reCAPTCHA ključ. Može se dobiti na<a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
 	'RECAPTCHA_EXPLAIN'				=> 'Kako bi spriječili automatske prijave, molimo da unesete prikazena riječi ispod.',
-	'RECAPTCHA_SOCKET_ERROR'		=> 'Došlo je do problema sa povezivanjem RECAPTCHA servisa: spajanje nije omogućeno. Pokušajte kasnije.',
+	'RECAPTCHA_SOCKET_ERROR'		=> 'Došlo je do problema sa povezivanjem RECAPTCHA servisa: Spajanje nije omogućeno. Pokušajte kasnije.',
 ));
