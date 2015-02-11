@@ -18,17 +18,12 @@ if (!defined('IN_PHPBB'))
 	exit;
 }
 
-// DEVELOPERS PLEASE NOTE
-//
-// All language files should use UTF-8 as their encoding and the files must not contain a BOM.
-//
-// Placeholders can now contain order information, e.g. instead of
-// 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
-// translators to re-order the output of data while ensuring it remains correct
-//
-// You do not need this where single placeholders are used, e.g. 'Message %d' is fine
-// equally where a string contains only two placeholders which are used to wrap text
-// in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+// <!-- NE MIJENJAJ -->
+// Ovo je službena phpBB verzija prijevoda prevedena u potpunosti s engleske originalne verzije
+// @Hrvatska jezična datoteka - <http://www.phpbb.com.hr>
+// objavljeno pod @licencom GNU General Public License, version 2 (GPL-2.0) 
+// za potpuna prava copyright  i indformacije o licenci korištenja phpBB foruma docs/CREDITS.txt file
+// <!-- NE MIJENJAJ -->
 
 $help = array(
 	array(
@@ -48,164 +43,164 @@ $help = array(
 		1 => 'Moguće je administrator foruma onemogućio registraciju kako bi spriječio nove registracije. Administrator foruma možda je zabranio vašu IP adresu ili korisničko ime s kojim se pokušavate registrirati. Kontaktirajte ga za pomoć.',
 	),
 	array(
-		0 => 'I registered but cannot login!',
-		1 => 'First, check your username and password. If they are correct, then one of two things may have happened. If COPPA support is enabled and you specified being under 13 years old during registration, you will have to follow the instructions you received. Some boards will also require new registrations to be activated, either by yourself or by an administrator before you can logon; this information was present during registration. If you were sent an email, follow the instructions. If you did not receive an email, you may have provided an incorrect email address or the email may have been picked up by a spam filer. If you are sure the email address you provided is correct, try contacting an administrator.'
+		0 => 'Ja sam se registrirao ali se ne mogu prijaviti!',
+		1 => 'Prvo, provjerite da li ste dobro upisali svoje korisničko ime i lozinku. Ako je ispravno, onda su je moguće nekoliko opcija. Ako je COPPA podrška omogućena i upisali ste da imate manje od 13 godina tijekom registracije, morat ćete slijediti upute. Neki forumi će zahtijevati novu registraciju koju ćete odraditi ili sami ili će biti odrađena od strane administratora prije nego što ćete se moći prijaviti; Ta informacija je bila dostupna tijekom postupka registracije. Ako ste poslali e-mail, slijedite upute. Ako niste dobili povratni e-mail, možda ste dali pogrešnu e-mail adresu ili je e-mail koji koristite prepoznat kao spam. Ako ste sigurni da je e-mail adresa koju ste upisali točna, kontaktirajte administratora ovog foruma.'
 	),
 	array(
-		0 => 'Why can’t I login?',
-		1 => 'There are several reasons why this could occur. First, ensure your username and password are correct. If they are, contact a board administrator to make sure you haven’t been banned. It is also possible the website owner has a configuration error on their end, and they would need to fix it.',
+		0 => 'Zašto se ne mogu prijaviti?',
+		1 => 'Postoji nekoliko razloga koji bi mogli biti razlog. Prvi je, provjerite vaše korisničko ime i lozinku. Ako su ispravni, obratite se administratoru. Također je moguće da vlasnik web stranice ima grešku u konfiguraciji koju bi trebali ispraviti.',
 	),
 	array(
-		0 => 'I registered in the past but cannot login any more?!',
-		1 => 'It is possible an administrator has deactivated or deleted your account for some reason. Also, many boards periodically remove users who have not posted for a long time to reduce the size of the database. If this has happened, try registering again and being more involved in discussions.'
+		0 => 'Bio sam registriran no više se ne mogu prijaviti?!',
+		1 => 'Moguće je administrator deaktivirao ili izbrisao korisnički račun iz nekog razloga poput neaktivnosti i slično. Dakle moguće je da neki administratori povremeno uklone korisnike koji nisu sudjelovali aktivno u raspravama na forumu u cilju oslobađanja baze. Ako se to desilo, pokušajte ponovnu registraciju i budite aktivniji u raspravama.'
 	),
 	array(
-		0 => 'I’ve lost my password!',
-		1 => 'Don’t panic! While your password cannot be retrieved, it can easily be reset. Visit the login page and click <em>I forgot my password</em>. Follow the instructions and you should be able to log in again shortly.<br />However, if you are not able to reset your password, contact a board administrator.',
+		0 => 'Zaboravio sam svoju lozinku!',
+		1 => 'Bez panike! Lozinku nitko ne može znati osim vas, ne može ju ni vidjeti uključujući i administratore, a lako se može uvjek ažurirati od strane samih korisnika. Idite na stranicu prijave i kliknite na <em> Zaboravio sam lozinku </ em>. Slijedite upute i trebali bi biti ubrzo u mogućnosti prijaviti se s novom lozinkom na forum. <br /> No, ako niste u nikako u mogućnosti postaviti novu, obratite se administratoru foruma.',
 	),
 	array(
-		0 => 'Why do I get logged off automatically?',
-		1 => 'If you do not check the <em>Remember me</em> box when you login, the board will only keep you logged in for a preset time. This prevents misuse of your account by anyone else. To stay logged in, check the <em>Remember me</em> box during login. This is not recommended if you access the board from a shared computer, e.g. library, internet cafe, university computer lab, etc. If you do not see this checkbox, it means a board administrator has disabled this feature.',
+		0 => 'Zašto me forum automatski odjavljuje?',
+		1 => 'Ako nemate uključeno <em> Zapamti me </ em> kod prijave, forum će vas držati prijavljene samo onoliko vremena koliko je odredio administrator u postavkama foruma. To sprečava zlouporabu Vašeg korisničkog računa. Da bi ostali prijavljeni, provjerite <em> Zapamti me </ em> polje tijekom prijave. To se ne preporuča ako pristupate forumu sa onekog javnog računala, npr u knjižnici, internet caffeu, sveučilištu, kod prijatelja itd. Ako ne vidite tu kućicu, tada je administrator onemogućio tu opciju u postavkama foruma.',
 	),
 	array(
 		0 => 'What does the “Delete all board cookies” do?',
-		1 => '“Delete all board cookies” deletes the cookies created by phpBB which keep you authenticated and logged into the board. Cookies also provide functions such as read tracking if they have been enabled by a board administrator. If you are having login or logout problems, deleting board cookies may help.',
+		1 => '“Izbriši sve kolačiće" opcija briše kolačiće koje kreira phpBB kada koristite forum. Kolačići, ako su uključeni, pružaju funkcije praćenja postavki korisnika kako bi se forum prilagodio njihovim potrebama kao što ste to već i pročitali. Ako imate probleme oko prijave ili odjave, brisanje tih kolačića može pomoći.',
 	),
 	array(
 		0 => '--',
-		1 => 'User Preferences and settings'
+		1 => 'Podešenja korisničkih postavki'
 	),
 	array(
-		0 => 'How do I change my settings?',
-		1 => 'If you are a registered user, all your settings are stored in the board database. To alter them, visit your User Control Panel; a link can usually be found by clicking on your username at the top of board pages. This system will allow you to change all your settings and preferences.',
+		0 => 'Kako mogu izmjeniti svoje postavke?',
+		1 => 'Ako ste registrirani korisnik, sve vaše postavke korisničkog računa su spremljene u bazi foruma. Da bi ih mijenjali, posjetite Korisnički Kontrol Panel nakon što se prijavite; link se obično može se naći klikom na vaše korisničko ime na samom vrhu stranice foruma. Sustav će vam omogućiti da samostalno kada to zaželite promijenite sve svoje postavke i podešenja, uključivši i lozinku, a koje su odobrene od strane administratora. ',
 	),
 	array(
-		0 => 'How do I prevent my username appearing in the online user listings?',
-		1 => 'Within your User Control Panel, under “Board preferences”, you will find the option <em>Hide your online status</em>. Enable this option and you will only appear to the administrators, moderators and yourself. You will be counted as a hidden user.'
+		0 => 'Kako mogu onemogućiti pojavu mog korisničkog imena na online popisu?',
+		1 => 'Unutar vašeg Korisničkog Kontrol Panela, pod  izbornikom "Forum postavke", naći ćete opciju <em> Sakrij moj status </ em>. Omogućite ovu opciju, i bit ćete vidljivi samo administratorima, moderatorima i naravno sebi. Ostali će vas vidjeti kao skrivenog korisnika.'
 	),
 	array(
-		0 => 'The times are not correct!',
-		1 => 'It is possible the time displayed is from a timezone different from the one you are in. If this is the case, visit your User Control Panel and change your timezone to match your particular area, e.g. London, Paris, New York, Sydney, etc. Please note that changing the timezone, like most settings, can only be done by registered users. If you are not registered, this is a good time to do so.'
+		0 => 'Vrijeme se ne prikazuje ispravno!',
+		1 => 'Moguće je vrijeme prikazano je iz vremenske zone različite od oneu kojoj se nalazite. Ako je to slučaj, posjetite Korisnički Kontrol Panel i promijenite svoju vremensku zonu kako bi se uklopili u određeno područje, npr Zagreb, Sarajevo, Beč, Budimpešta itd. Imajte na umu da mijenjanje vremenske zone, kao i većina postavki, mogu napraviti samo registrirani korisnici koji su prijavljeni na forum. Ako niste registrirani, tu postavku ne možete mijenjati i koristite vremensku zonu foruma.'
 	),
 	array(
-		0 => 'I changed the timezone and the time is still wrong!',
-		1 => 'If you are sure you have set the timezone correctly and the time is still incorrect, then the time stored on the server clock is incorrect. Please notify an administrator to correct the problem.'
+		0 => 'Promjena je vremenska zona no ona se i dalje prikazuje pogrešno!',
+		1 => 'Ako ste sigurni da ste postavili vremensku zonu ispravno, a vrijeme je i dalje netočno, onda se vrijeme na serveru nije ispravno podesilo. Molimo obavijestite administratora kako bi ispravio taj problem.'
 	),
 	array(
-		0 => 'My language is not in the list!',
-		1 => 'Either the administrator has not installed your language or nobody has translated this board into your language. Try asking a board administrator if they can install the language pack you need. If the language pack does not exist, feel free to create a new translation. More information can be found at the <a href="https://www.phpbb.com/">phpBB</a>&reg; website.',
+		0 => 'Moj jezik nije na listi ponuđenih!',
+		1 => 'Sasvim moguće više je mogućih razloga ako nema vašeg jezika u ponuđenim opcijama. Ili forum administrator nije instalirao Vaš jezik ili forum nije ni preveden na tvoj jezik. Pitajte administratora ovog foruma može li instalirati vaš jezični paket kako bi vam olakšao snalaženje unutar foruma. Ako jezični paket kojim slučajem ne postoji odnosno nije ni preveden, pokušajte se volonterski uključiti u prevođenje na vaš jezik. Više informacija može se pronaći na <a href="https://www.phpbb.com/"> phpBB </a> & reg; website.',
 	),
 	array(
-		0 => 'What are the images next to my username?',
-		1 => 'There are two images which may appear along with a username when viewing posts. One of them may be an image associated with your rank, generally in the form of stars, blocks or dots, indicating how many posts you have made or your status on the board. Another, usually larger, image is known as an avatar and is generally unique or personal to each user.',
+		0 => 'Što je slika pored mog korisničkog imena?',
+		1 => 'Postoje dvije slike koje se mogu pojaviti zajedno s korisničkim imenom prilikom pregledavanja postova. Jedna od njih može biti slika povezana s statusom na forumu, uglavnom u obliku zvijezdica, točkica ili blokova, što pokazuje koliko postova imate ili dodjeljen status na forumu. Druga, obično veća, slika zvana Avatar i obično je jedinstvena slika prema kojoj se indentificira svaki korisnik.',
 	),
 	array(
-		0 => 'How do I display an avatar?',
-		1 => 'Within your User Control Panel, under “Profile” you can add an avatar by using one of the four following methods: Gravatar, Gallery, Remote or Upload. It is up to the board administrator to enable avatars and to choose the way in which avatars can be made available. If you are unable to use avatars, contact a board administrator.',
+		0 => 'Kako mogu prikazati svoj avatar?',
+		1 => 'Unutar Korisničke opcije pod "Profil" možete dodati avatar pomoću jedne od četiri sljedećih metoda: Gravatar, galerija, daljinski ili učitati. To je do icu kako bi se omogućilo avatare i odabrati način na koji avatara može biti na raspolaganju. Ako ne možete koristiti avatara, obratite se administratoru ploči. ',
 	),
 	array(
-		0 => 'What is my rank and how do I change it?',
-		1 => 'Ranks, which appear below your username, indicate the number of posts you have made or identify certain users, e.g. moderators and administrators. In general, you cannot directly change the wording of any board ranks as they are set by the board administrator. Please do not abuse the board by posting unnecessarily just to increase your rank. Most boards will not tolerate this and the moderator or administrator will simply lower your post count.'
+		0 => 'Što je moj status i kako ga promijeniti?',
+		1 => 'Statusi koji se nalaze ispod vašeg korisničkog imena navede broj vaših postova koje ste napravili i za samu indentifikaciju s određenim korisnikom, npr. moderatori i administratori phpBB foruma. Općenito, ne možete direktno promijeniti status. Zloupotrebe ovog djela slanjem većeg broja postova samo u cilju povećavanja statusa se najčešće sankcioniraju. Većina foruma naime neće tolerirati bespotrebno postanje u cilju povećavanja statusa i moderator ili administrator će jednostavno smanjiti status brisanjem tih postova.'
 	),
 	array(
-		0 => 'When I click the email link for a user it asks me to login?',
-		1 => 'Only registered users can send email to other users via the built-in email form, and only if the administrator has enabled this feature. This is to prevent malicious use of the email system by anonymous users.'
-	),
-	array(
-		0 => '--',
-		1 => 'Posting Issues'
-	),
-	array(
-		0 => 'How do I create a new topic or post a reply?',
-		1 => 'To post a new topic in a forum, click "New Topic". To post a reply to a topic, click "Post Reply". You may need to register before you can post a message. A list of your permissions in each forum is available at the bottom of the forum and topic screens. Example: You can post new topics, You can post attachments, etc.',
-	),
-	array(
-		0 => 'How do I edit or delete a post?',
-		1 => 'Unless you are a board administrator or moderator, you can only edit or delete your own posts. You can edit a post by clicking the edit button for the relevant post, sometimes for only a limited time after the post was made. If someone has already replied to the post, you will find a small piece of text output below the post when you return to the topic which lists the number of times you edited it along with the date and time. This will only appear if someone has made a reply; it will not appear if a moderator or administrator edited the post, though they may leave a note as to why they’ve edited the post at their own discretion. Please note that normal users cannot delete a post once someone has replied.'
-	),
-	array(
-		0 => 'How do I add a signature to my post?',
-		1 => 'To add a signature to a post you must first create one via your User Control Panel. Once created, you can check the <em>Attach a signature</em> box on the posting form to add your signature. You can also add a signature by default to all your posts by checking the appropriate radio button in the User Control Panel. If you do so, you can still prevent a signature being added to individual posts by un-checking the add signature box within the posting form.'
-	),
-	array(
-		0 => 'How do I create a poll?',
-		1 => 'When posting a new topic or editing the first post of a topic, click the “Poll creation” tab below the main posting form; if you cannot see this, you do not have appropriate permissions to create polls. Enter a title and at least two options in the appropriate fields, making sure each option is on a separate line in the textarea. You can also set the number of options users may select during voting under “Options per user”, a time limit in days for the poll (0 for infinite duration) and lastly the option to allow users to amend their votes.'
-	),
-	array(
-		0 => 'Why can’t I add more poll options?',
-		1 => 'The limit for poll options is set by the board administrator. If you feel you need to add more options to your poll than the allowed amount, contact the board administrator.'
-	),
-	array(
-		0 => 'How do I edit or delete a poll?',
-		1 => 'As with posts, polls can only be edited by the original poster, a moderator or an administrator. To edit a poll, click to edit the first post in the topic; this always has the poll associated with it. If no one has cast a vote, users can delete the poll or edit any poll option. However, if members have already placed votes, only moderators or administrators can edit or delete it. This prevents the poll’s options from being changed mid-way through a poll.'
-	),
-	array(
-		0 => 'Why can’t I access a forum?',
-		1 => 'Some forums may be limited to certain users or groups. To view, read, post or perform another action you may need special permissions. Contact a moderator or board administrator to grant you access.'
-	),
-	array(
-		0 => 'Why can’t I add attachments?',
-		1 => 'Attachment permissions are granted on a per forum, per group, or per user basis. The board administrator may not have allowed attachments to be added for the specific forum you are posting in, or perhaps only certain groups can post attachments. Contact the board administrator if you are unsure about why you are unable to add attachments.'
-	),
-	array(
-		0 => 'Why did I receive a warning?',
-		1 => 'Each board administrator has their own set of rules for their site. If you have broken a rule, you may be issued a warning. Please note that this is the board administrator’s decision, and the phpBB Limited has nothing to do with the warnings on the given site. Contact the board administrator if you are unsure about why you were issued a warning.'
-	),
-	array(
-		0 => 'How can I report posts to a moderator?',
-		1 => 'If the board administrator has allowed it, you should see a button for reporting posts next to the post you wish to report. Clicking this will walk you through the steps necessary to report the post.'
-	),
-	array(
-		0 => 'What is the “Save” button for in topic posting?',
-		1 => 'This allows you to save drafts to be completed and submitted at a later date. To reload a saved draft, visit the User Control Panel.'
-	),
-	array(
-		0 => 'Why does my post need to be approved?',
-		1 => 'The board administrator may have decided that posts in the forum you are posting to require review before submission. It is also possible that the administrator has placed you in a group of users whose posts require review before submission. Please contact the board administrator for further details.'
-	),
-	array(
-		0 => 'How do I bump my topic?',
-		1 => 'By clicking the “Bump topic” link when you are viewing it, you can “bump” the topic to the top of the forum on the first page. However, if you do not see this, then topic bumping may be disabled or the time allowance between bumps has not yet been reached. It is also possible to bump the topic simply by replying to it, however, be sure to follow the board rules when doing so.'
+		0 => 'Kad sam kliknuo na e-mail poveznicu želeći oslati poruku korisniku forum traži prijavu?',
+		1 => 'U pravilu samo registrirani korisnici mogu poslati e-mail (ili Privatnu Poruku) drugim korisnicima foruma putem ugrađenog e-mail obrasca i to samo ukoliko je administrator omogućio tu opciju. To je u cilju spriječavanja zlonamjernog korištenja e-mail sustava te slanja neželjene pošta korisnicima phpBB foruma od strane anonimnih korisnika.'
 	),
 	array(
 		0 => '--',
-		1 => 'Formatting and Topic Types'
+		1 => 'Postanje na phpBB-u'
 	),
 	array(
-		0 => 'What is BBCode?',
-		1 => 'BBCode is a special implementation of HTML, offering great formatting control on particular objects in a post. The use of BBCode is granted by the administrator, but it can also be disabled on a per post basis from the posting form. BBCode itself is similar in style to HTML, but tags are enclosed in square brackets [ and ] rather than &lt; and &gt;. For more information on BBCode see the guide which can be accessed from the posting page.'
+		0 => 'Kako mogu stvoriti novu temu ili odgovor?',
+		1 => 'Da bi na phpBB-u postavili novu temu unutar foruma kliknite na "Nova tema". Kako bi odgovorili na post u temi jednostavno kliknite na "Odgovor". Možda, ovisno o postavkama koje je odredio administrator foruma, ćete se morati registrirati i prijaviti korisničkim imenom i lozinkom prije nego što ćete moći postavljati svoje poruke. Popis vaših dozvola u svakom forumu je dostupan na samom dnu foruma i tema. Primjer: Vi NE možete počinjati nove teme unutar ovog foruma, Vi možete replicirati na temu unutar ovog foruma, Vi NE možete editirati napisano unutar ovog foruma, Vi NE možete obrisati post unutar ovog foruma, Vi možete slati privitke unutar ovog foruma i sl.',
 	),
 	array(
-		0 => 'Can I use HTML?',
-		1 => 'No. It is not possible to post HTML on this board and have it rendered as HTML. Most formatting which can be carried out using HTML can be applied using BBCode instead.'
+		0 => 'Kako mogu urediti ili opbrisati post?',
+		1 => 'Osim administratora ili moderatora i vi možete uređivati ili izbrisati svoje postove, no to na svakom forumu detaljnije određuje administrator ili forum moderator. Ukoliko je omogućeno u postavkama vi možete urediti post klikom na gumb uredi post, ponekad doduše za to administrator odredi vrijeme koje prođe od kreiranja posta. Ako je netko već odgovorio na tvoj post u vrijeme uređivanja naći ćete poruku ispod u cilju da vidite da li je samo uređenje nakon novog posta smisleno ili ne. To će se pojaviti samo ako je netko napravio NOVI odgovor kada ste editirali; neće se pojaviti ako su na primjer moderator ili administrator samo uredili post. No oni mogu ostaviti u postu napomenu zašto su uredili post. Imajte na umu da normalni korisnici, ako je administrator tako odredio u postavkama, ne mogu izbrisati post kad jednom netko na njega odgovori.'
 	),
 	array(
-		0 => 'What are Smilies?',
-		1 => 'Smilies, or Emoticons, are small images which can be used to express a feeling using a short code, e.g. :) denotes happy, while :( denotes sad. The full list of emoticons can be seen in the posting form. Try not to overuse smilies, however, as they can quickly render a post unreadable and a moderator may edit them out or remove the post altogether. The board administrator may also have set a limit to the number of smilies you may use within a post.'
+		0 => 'Kako mogu dodati potpis na svoj post?',
+		1 => 'Da biste dodali potpis koji će se prikazati ispod svakog posta prvo ga morate napraviti unutar KKP-a (Korisničkog Kontrol Panela) klikom na "Profil" pa na "Uredi potpis". Nakon što ste ga kreirali (obratite pažnju na ograničen broj znakova) možete ga isključiti iz prikaza u nekom postu isključivanjem opcije "Priložite potpis, potpisi se mogu mijenjati preko Korisničkog Kontrol Panela". Također možete uključiti unutar Korisničkog Kontrol Panela da se potpis pojavljuje automatski u svim postovima ili da se ne pojavljuje već da ga uključite gdje smatrate to za potrebnim. To možete napraviti u Korisničkom Kontrol Panelu klikom na "Forum postavke" pa na "Uredi osnovne postavke postanja" u dijelu "Priključite svoj potpis po defaultu". Ako ste to učinili još uvijek naravno možete sam potpis na pojedinačnom postu onemogućiti za prikaz na opciji prikaza potpisa.'
 	),
 	array(
-		0 => 'Can I post images?',
-		1 => 'Yes, images can be shown in your posts. If the administrator has allowed attachments, you may be able to upload the image to the board. Otherwise, you must link to an image stored on a publicly accessible web server, e.g. http://www.example.com/my-picture.gif. You cannot link to pictures stored on your own PC (unless it is a publicly accessible server) nor images stored behind authentication mechanisms, e.g. hotmail or yahoo mailboxes, password protected sites, etc. To display the image use the BBCode [img] tag.'
+		0 => 'Kako mogu kreirati anketu na forumu?',
+		1 => 'Kada postavljate novu temu ili uređujete prvi post u temi, kliknite na "Kreiranje ankete" ispod glavnog obrasca samog posta. Ako to kojim slučajem ne vidite vi kao korisnik najvjerojatnije nemate potrebna dopuštenja za kreiranje anketa unutar tog djela foruma. Ako možete unesite naslov i najmanje dvije opcije za glasanje unutar ankete u odgovarajuća polja, pazeći pritom da je svaki odgovor u novom redu tekstualnog polja. Također, možete podesiti broj opcija koje korisnik može odabrati prilikom samog glasovanja pod "Opcije po korisniku" ili rok trajanja ankete u danima za anketu i na kraju mogućnost korisnicima da naknadno ako se predomisle izmijene svoj glas. Naiđete li na problem uvijek možete dodatno zatražiti pomoć kod administratora foruma.'
 	),
 	array(
-		0 => 'What are global announcements?',
-		1 => 'Global announcements contain important information and you should read them whenever possible. They will appear at the top of every forum and within your User Control Panel. Global announcement permissions are granted by the board administrator.'
+		0 => 'Zašto ne mogu dodati još opcija unutar kreirane ankete?',
+		1 => 'Taj limit za ankete određuje administrator. Ako smatrate da je potrebno dodati još više mogućnosti za Vašu anketu od dopuštenog tada se obratite administratoru i obrazložite mu svoj problem.'
 	),
 	array(
-		0 => 'What are announcements?',
-		1 => 'Announcements often contain important information for the forum you are currently reading and you should read them whenever possible. Announcements appear at the top of every page in the forum to which they are posted. As with global announcements, announcement permissions are granted by the board administrator.'
+		0 => 'Kako mogu urediti ili izbrisati svoju anketu?',
+		1 => 'Sve kreirane Ankete može uređivati samo onaj korisnik koji ih je kreirao i naravno administrator foruma ili moderator. Za uređivanje ankete, kliknite na "Uedi post". Prvi se post uvijek povezuje s opcijama ankete. Ako nitko nije glasao, korisnici mogu izbrisati anketu ili izmijeniti odnosno dodati bilo koju opciju za glasanje. Međutim, ako su članovi foruma već glasali, samo moderatori ili administratori mogu urediti ili izbrisati tu anketu. To sprječava oda tijekom samog glasanja dođe do gubljenja smisla već datih glasova i eventualnih manipulacija glasovima.'
 	),
 	array(
-		0 => 'What are sticky topics?',
-		1 => 'Sticky topics within the forum appear below announcements and only on the first page. They are often quite important so you should read them whenever possible. As with announcements and global announcements, sticky topic permissions are granted by the board administrator.'
+		0 => 'Zašto ne mogu pristupiti nekom forumu?',
+		1 => 'Neki forumi mogu biti ograničeni samo na određenu grupu korisnika ili samo na određene korisnike. Za pregledavanje pošte ili za neku drugu radnju moguće ćete trebati posebne ovlasti. Kontaktirajte moderatora foruma ili samog administratora da vam to pojasni ili omogući sam pristup.'
 	),
 	array(
-		0 => 'What are locked topics?',
-		1 => 'Locked topics are topics where users can no longer reply and any poll it contained was automatically ended. Topics may be locked for many reasons and were set this way by either the forum moderator or board administrator. You may also be able to lock your own topics depending on the permissions you are granted by the board administrator.'
+		0 => 'Zašto ne mogu dodavati datoteke/ like i slično u post?',
+		1 => 'Ta se odobrenja dodjeljiuju ponekad za svaki forum posebno ili prema grupi korisnika ili pojedinačno. Administrator phpBB foruma možda je onemogućio dodavanje privitaka za forum unutar čije ste ih teme željeli staviti ili možda samo određene grupe korisnika mogu postavljati slike i ostale privitke. Kontaktirajte najbolje administratora ili pogledajte ako je to navedeno u pravilima ako niste sigurni zašto niste u mogućnosti dodavati privitke u post.'
 	),
 	array(
-		0 => 'What are topic icons?',
-		1 => 'Topic icons are author chosen images associated with posts to indicate their content. The ability to use topic icons depends on the permissions set by the board administrator.'
+		0 => 'Zašto sam mi je dodjeljeno upozorenje???',
+		1 => 'Svaki administrator phpBb foruma ima svoja vlastita pravila vezana uz određen forum. Ako ste ih moguće prekršili tada vam se dodjeljuje upozorenje. Imajte na umu da je ova odluka donešena uz pravila svakog foruma, a phpBB Limited nema baš nikakve veze s takvim vrstama upozorenja. Kontaktirajte najbolje administratora foruma ukoliko niste sigurni zašto vam je izdano upozorenje.'
+	),
+	array(
+		0 => 'Kako mogu prijaviti post moderatoru foruma?',
+		1 => 'Ukoliko je administrator je to dopustio vidjet ćete gumb za prijavljivanje postova pored posta koji želite prijaviti. Klikom na to softver vas vodi kroz postupak prijave.'
+	),
+	array(
+		0 => 'Što je to “Spremi skicu” gumb kada pišem post ili poruku?',
+		1 => 'To vam omogućuje spremanje skica koje treba dovršiti ili staviti kasnije. Da biste ponovno učitali spremljenu skicu posjetite nakon prijave korisničkim imenom i lozinkom svoj Korisnički Kontrol Panel.'
+	),
+	array(
+		0 => 'Zašto moj post mora biti odobren?',
+		1 => 'Administrator se možda odlučio da se postovi na forumu prethodno pregledaju prije objave. Također je moguće da je administrator to stavio samo u neku pojedinu grupu korisnika. Molimo kontaktirajte administratora za detalje.'
+	),
+	array(
+		0 => 'Kako mogu bumpirati temu?',
+		1 => 'Klikom na "Bumpiraj" ili "Bump post" što samu temu stavlja na vrh stranice. Međutim, ukoliko to ne vidite tada je možda ta opcija onemogućena ili nije prošlo dovoljno vremena koje je administrator odredio za bumpiranje teme. Također je moguće da temu bumpirate stavljanjem novog posta, međutim budite sigurni da slijedite pravila samog foruma kada to činite.'
+	),
+	array(
+		0 => '--',
+		1 => 'Uređivanje i tipovi tema'
+	),
+	array(
+		0 => 'Što je to BBKod ili BBCode?',
+		1 => 'BBKod (BBCode) je posebna HTML implementacija koja nudi velike mogućnosti oblikovanja samog posta ili privatne poruke unutar phpBB foruma. Korištenje BBKoda jednog ili više njih odobrava administrator foruma, no isti može biti onemogućen od strane korisnika i prilikom samog pisanja posta ili poruke. BBKod je u biti HTML kojem su tagovi zatvoreni uglatim zagradama [i], umjesto <i>. Za više informacija o BBKodu pogledajte vodič kojem možete pristupiti sa stranice za pisanje postova.'
+	),
+	array(
+		0 => 'Mogu li koristiti HTML?',
+		1 => 'Ne nije moguće korištenje HTML-a na ovom forumu. Većina stvari vezanih uz HTML oblikovanje mogu se umjesto toga primjeniti pomoću BBKoda.'
+	),
+	array(
+		0 => 'Što su smajlići?',
+		1 => 'Smajlići ili Emotikoni su male sličice koje se mogu koristiti za izražavanje osjećaja unutar foruma pomoću kratkog koda, npr. :) bi označavalo da ste sretni, dok :( označava kada ste tužni. Potpuni dostupan odobren od strane administratora popis se može vidjeti prilikom pisanja posta. Pokušajte ne previše koristiti smajliće u postu jer i oni mogu brzo donijeti do toga da je post nečitak te ih moderator može izmijeniti ili ukloniti. Administrator foruma može također postaviti ograničenje koliko smajlića možete ubaciti u pojedini post.'
+	),
+	array(
+		0 => 'Mogu li stavljati slike?',
+		1 => 'Da naravno, slike mogu biti prikazane u postovima, jasno ako je to administrator omogućio. Možda ako se onemogući na pojedinom forumu nećete biti u mogućnosti stavljati slike ili neke datoteke ili će se stavljanje ograničiti veličinom. Prilikom stavljanja slika sa drugih stranica - servera obratite pažnju na autorska prava te da je na dostupnom poslužitelju, npr http://www.example.com/neka-slika.gif. Naravno ne možete povezati post s fotografijama pohranjenim na vlastitom računalu bez prebacivanja u privitak (osim ako je isti javno dostupan server) niti slike za čije je pregledavanje potrebna autoindentifikacija korisničkim imenom i lozinkom, npr Hotmail ili Yahoo poštanski sandučići, lozinkom zaštićene stranice, itd. itd. Za prikaz slika koristite BBKod [img] [/img] tag.'
+	),
+	array(
+		0 => 'Što su globalne obavijesti?',
+		1 => 'Globalne najave sadrže važne informacije i trebali bi ih pročitati kad god je to moguće. One će se pojaviti na vrhu svakog foruma i Korisničkom Kontrol Panelu. Globalne obavjesti objavljuju administratori koji mogu dati ovlasti ostalim korsnicima ili grupama korisnika za objavu istih.'
+	),
+	array(
+		0 => 'Što su obavijesti?',
+		1 => 'Obavijesti ili najave često sadrže važne informacije za neki tematski forum koji baš čitate i trebali ih pročitati kad god je to moguće. Pojavljuju se na vrhu svake stranice foruma na kojem su postane. Kao i globalne obavijesti administratori mogu dati ovlasti ostalim korsnicima ili grupama korisnika za objavu istih.'
+	),
+	array(
+		0 => 'Što je važno?',
+		1 => 'Važno / Sticky je tema unutar foruma koje se pojavljuju samo na prvoj stranici, a sadrže važne informacije za neki tematski forum koji baš čitate i trebali ih pročitati kad god je to moguće. Kao i kod globalnih obavijesti i obavijesti  dministratori mogu dati ovlasti ostalim korsnicima ili grupama korisnika za objavu istih.'
+	),
+	array(
+		0 => 'Zašto je tema zaključana?',
+		1 => 'Zaključane teme su teme u kojima korisnici više ne mogu odgovarati i ukoliko sadrže anketu istoj se zaključavanjem onemogućuje daljnje glasanje. Teme mogu biti zaključane od strane administratora ili moderatora ali i samog korisnika koji ih je otvorio (ako ima dopuštenje) iz nekoliko razloga.'
+	),
+	array(
+		0 => 'Što su to ikone tema?',
+		1 => 'Ikone tema su male slike koje dodatno pojašnjavaju sadržaj. Mogućnost korištenja ikona ovisi o dozvolama koje je postavio administrator.',
 	),
 	// This block will switch the FAQ-Questions to the second template column
 	array(
@@ -214,11 +209,11 @@ $help = array(
 	),
 	array(
 		0 => '--',
-		1 => 'User Levels and Groups'
+		1 => 'Korisničke razine i grupe'
 	),
 	array(
-		0 => 'What are Administrators?',
-		1 => 'Administrators are members assigned with the highest level of control over the entire board. These members can control all facets of board operation, including setting permissions, banning users, creating usergroups or moderators, etc., dependent upon the board founder and what permissions he or she has given the other administrators. They may also have full moderator capabilities in all forums, depending on the settings put forth by the board founder.'
+		0 => 'Što su administratori?',
+		1 => 'Administratori su osobe s najvišom razinom kontrole unutar cijelog phpBB foruma. Oni mogu kontrolirati baš sve unutar phpBB foruma, uključujući i postavljanje najrazličitijih dozvola, isključivanje korisnika, stvaranje korisničkih grupa ili moderatora itd. Administratori također imaju potpune moderatorske ovlasti unutar svih kreiranih foruma, a ovisno o zadanim postavkama.'
 	),
 	array(
 		0 => 'Što su moderatori?',
@@ -233,7 +228,7 @@ $help = array(
 		1 => 'Korisničke grupe na forumu možete vidjeti unutar Korisničkog Kontrol panela u djelu Korisničke grupe. Ako se želite jednoj od aktivnih pridružiti kliknite na nju i pošaljite zahtjev. Nisu sve grupe otvorenog pristupa, nekima treba posebno odobrenje, neke su zatvorene, a neke čak i skrivene. Ukoliko je grupa otvorenog tipa dovoljno je kliknuti i poslati zahtjev, ukoliko je zatvorenog tipa nakon poslanoh zahtjeva morate pričekati odobrenje od strane voditelja. Ne uznemiravajte dodatno voditelja grupe čak ni ukoliko odbije vaš zahtjev, vjerojatno postoje razlozi za tako nešto.'
 	),
 	array(
-		0 => '>Kako mogu postati voditelj neke grupe?',
+		0 => 'Kako mogu postati voditelj neke grupe?',
 		1 => 'Vođa se dodjeljuje obično prilikom kreiranja nove grupe. Želiš li postati voditeljem neke grupe na forumu ili osnovati novu kontaktiraj admnistratora foruma.',
 	),
 	array(
@@ -353,7 +348,15 @@ $help = array(
 		1 => 'Svi posjetioci mogu ga kontaktirati preko “kontakt” forme, ukoliko je ta opcija uključena od strane administratora.<br />Registrirani članovi foruma mogu ga kontaktirati i preko “Tim” linka.',
 	),
 	array(
+0=>'--',
+1=>'O phpBB prijevodu - prijevodima'
+),
+	array(
 		0 => 'Tko prevodi ovaj forum?',
 		1 => 'Ovaj je forum u potpunosti s enleske službene inačice preveden radom grupe phpBB volontera okupljenih na <a href="http://www.phpbb.com.hr">phpbb.com.hr</a> i kao takav služi kao službeni phpBB prijevod na Hrvatski jezik.',
+	),
+	array(
+		0 => 'Smijem li se uključiti u prevođenje ili preradoiti ovaj prijevod?',
+		1 => 'Naravno, prijevod je rad grupe volontera javno je dostupan pod licencom kao i originalna verzija phpBB-a te originalnog jezika s kojeg je preveden. Prevod i online ispravak mogućih grešaka ove verzije dostupno je preko <a href="https://github.com/akarlovic">github.com</a> dok je preuzimanje ove i bilo kojih jezičnih datoteka za korištenje phpBB-a zbog same sigurnosti rada foruma preporučljivo samo i isključivo preko <a href="https://www.phpbb.com/languages/">phpbb.com</a> na kojima sve datoteke prolaze dodatne provjere kompatibilnosti sa phpBB-om',
 	),
 );
