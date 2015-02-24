@@ -41,7 +41,7 @@ $help = array(
 	),
 	array(
 		0 => 'Kako promjeniti boju i veličinu teksta',
-		1 => 'Za boju i veličinu teksta na phpBb forumu možete koristiti sljedeće, no  znajte da kranji rezultat ovisi donekle i o pregledniku korisnika: <ul><li>Promjena boje teksta postiže tako da ju zamotamo u <strong>[color=][/color]</strong>. vi možete odrediti i ime boje (npr. red(za crvenu), blue(za plavu), yellow (za žutu), itd.) ili na primjer. #FFFFFF (za bijelu), #000000(za crnu). Na primjer, za stvaranje crvenog teksta možete koristiti:<br /><br /><strong>[color=red]</strong>Halo!<strong>[/color]</strong><br /><br />or<br /><br /><strong>[color=#FF0000]</strong>Halo!<strong>[/color]</strong><br /><br />Oba će biti kao <span style="color:red">Halo!</span></li><li>Promjena veličine teksta postiže se na sličan način korištenja <strong>[size=][/size]</strong>. Ovaj tag ovisi o samom predlošku korisnika, ali preporuča se numerički format vrijednosti koji predstavlja veličinu teksta u postocima, s početnim 20 (vrlo malo) do 200 (vrlo veliko) kao zadano. Na primjer:<br /><br /><strong>[size=30]</strong>MALO<strong>[/size]</strong><br /><br />bit će kao <span style="font-size:30%;">MALO</span><br /><br />a:<br /><br /><strong>[size=200]</strong>OGROMNO!<strong>[/size]</strong><br /><br />bit će kao <span style="font-size:200%;">OGROMNO!</span></li></ul>'
+		1 => 'Za boju i veličinu teksta na phpBB forumu možete koristiti sljedeće, no  znajte da kranji rezultat ovisi donekle i o pregledniku korisnika: <ul><li>Promjena boje teksta postiže tako da ju zamotamo u <strong>[color=][/color]</strong>. vi možete odrediti i ime boje (npr. red(za crvenu), blue(za plavu), yellow (za žutu), itd.) ili na primjer. #FFFFFF (za bijelu), #000000(za crnu). Na primjer, za stvaranje crvenog teksta možete koristiti:<br /><br /><strong>[color=red]</strong>Halo!<strong>[/color]</strong><br /><br />or<br /><br /><strong>[color=#FF0000]</strong>Halo!<strong>[/color]</strong><br /><br />Oba će biti kao <span style="color:red">Halo!</span></li><li>Promjena veličine teksta postiže se na sličan način korištenja <strong>[size=][/size]</strong>. Ovaj tag ovisi o samom predlošku korisnika, ali preporuča se numerički format vrijednosti koji predstavlja veličinu teksta u postocima, s početnim 20 (vrlo malo) do 200 (vrlo veliko) kao zadano. Na primjer:<br /><br /><strong>[size=30]</strong>MALO<strong>[/size]</strong><br /><br />bit će kao <span style="font-size:30%;">MALO</span><br /><br />a:<br /><br /><strong>[size=200]</strong>OGROMNO!<strong>[/size]</strong><br /><br />bit će kao <span style="font-size:200%;">OGROMNO!</span></li></ul>'
 	),
 	array(
 		0 => 'Mogu li kombinirati oznake oblikovanja?',
@@ -102,6 +102,6 @@ $help = array(
 	),
 	array(
 		0 => 'Mogu li dodati svoje vlastite tagove?',
-		1 => 'Možeš ukoliko imaš korisnički račun sa administratorskim ovlastima, BBKod dodajete preko BBKod sekcije.'
+		1 => 'Možeš ukoliko imaš korisnički račun sa administratorskim ovlastima, BBKod dodajete prijavom unutar Administratorskog kontrol Panela u kategoriji Postanje u kojoj odaberete BBKod sekciju.'
 	),
 );
