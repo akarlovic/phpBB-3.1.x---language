@@ -18,7 +18,7 @@ if (!defined('IN_PHPBB'))
 }
 // <!-- NE MIJENJAJ -->
 // Ovo je službena phpBB verzija prijevoda prevedena u potpunosti s engleske originalne verzije
-// @Hrvatska jezična datoteka A.Karlović - <http://www.phpbb.com.hr>
+// @Hrvatska jezična datoteka - <http://www.phpbb.com.hr>
 // objavljeno pod @licencom GNU General Public License, version 2 (GPL-2.0) 
 // za potpuna prava copyright  i indformacije o licenci korištenja phpBB foruma docs/CREDITS.txt file
 // <!-- NE MIJENJAJ -->
@@ -29,47 +29,47 @@ $help = array(
 	),
 	array(
 		0 => 'Što je BBCode?',
-		1 => 'BBCode je posebna HTML implementacija. Da bi mogli koristiti BBKod na forumu to određuje administrator foruma. U postavkama postanja vi možete isključiti korištenje BBKoda. BBCode itself is similar in style to HTML, tags are enclosed in square brackets [ and ] rather than &lt; and &gt; and it offers greater control over what and how something is displayed. Depending on the template you are using you may find adding BBCode to your posts is made much easier through a clickable interface above the message area on the posting form. Even with this you may find the following guide useful.'
+		1 => 'BBCode je posebna HTML implementacija. Da bi mogli koristiti BBKod na forumu to određuje administrator foruma. U postavkama postanja vi možete isključiti korištenje BBKoda. BBKod je u stvari vrlo sličan HTML-u, njegovi se tagovi zatvaraju uglatim zagradama [i] umjesto & lt; i & gt; i nude veću kontrolu nad onim što se i kako prikazuje unutar phpBB foruma. Ovisno o vašem zadanom stilu foruma dodati BBKod u post puno je lakše kroz sučelje iznad prostora za pisanje poruke. Uz to možete koristiti i slijedeći koristan vodič za BBKod.'
 	),
 	array(
 		0 => '--',
-		1 => 'Text Formatting'
+		1 => 'Oblikovanje teksta'
 	),
 	array(
 		0 => 'Kako kreirati podebljani, ukošeni i podcrtani tekst',
-		1 => 'BBKod includes tags to allow you to quickly change the basic style of your text. This is achieved in the following ways: <ul><li>To make a piece of text bold enclose it in <strong>[b][/b]</strong>, e.g. <br /><br /><strong>[b]</strong>Hello<strong>[/b]</strong><br /><br />will become <strong>Hello</strong></li><li>For underlining use <strong>[u][/u]</strong>, for example:<br /><br /><strong>[u]</strong>Good Morning<strong>[/u]</strong><br /><br />becomes <span style="text-decoration: underline">Good Morning</span></li><li>To italicise text use <strong>[i][/i]</strong>, e.g.<br /><br />This is <strong>[i]</strong>Great!<strong>[/i]</strong><br /><br />would give This is <i>Great!</i></li></ul>'
+		1 => 'BBKod uključuje oznake za brzu promijenu osnovnog stil Vašeg teksta u forumu. To se postiže na sljedeći način: <ul><li>Da bi podebljali tekst stavljamo <strong>[b][/b]</strong>, npr. <br /><br /><strong>[b]</strong>Halo!<strong>[/b]</strong><br /><br />će biti <strong>Halo</strong></li><li>Za naglašavanje odnosno podcrtavanje teksta koristi se <strong>[u][/u]</strong>, npr.:<br /><br /><strong>[u]</strong>Dobro Vam jutro<strong>[/u]</strong><br /><br />izgleda ovako <span style="text-decoration: underline">Dobro Vam jutro</span></li><li>Za ukošenje teksta koristi se <strong>[i][/i]</strong>, npr.<br /><br />Ovo je <strong>[i]</strong>Izvrsno!<strong>[/i]</strong><br /><br />izgledat će ovako: Ovo je <i>Izvrsno!</i></li></ul>'
 	),
 	array(
 		0 => 'Kako promjeniti boju i veličinu teksta',
-		1 => 'To alter the colour or size of your text the following tags can be used. Keep in mind that how the output appears will depend on the viewers browser and system: <ul><li>Changing the colour of text is achieved by wrapping it in <strong>[color=][/color]</strong>. You can specify either a recognised colour name (eg. red, blue, yellow, etc.) or the hexadecimal triplet alternative, e.g. #FFFFFF, #000000. For example, to create red text you could use:<br /><br /><strong>[color=red]</strong>Hello!<strong>[/color]</strong><br /><br />or<br /><br /><strong>[color=#FF0000]</strong>Hello!<strong>[/color]</strong><br /><br />Both will output <span style="color:red">Hello!</span></li><li>Changing the text size is achieved in a similar way using <strong>[size=][/size]</strong>. This tag is dependent on the template the user has selected but the recommended format is a numerical value representing the text size in percent, starting at 20 (very small) through to 200 (very large) by default. For example:<br /><br /><strong>[size=30]</strong>SMALL<strong>[/size]</strong><br /><br />will generally be <span style="font-size:30%;">SMALL</span><br /><br />whereas:<br /><br /><strong>[size=200]</strong>HUGE!<strong>[/size]</strong><br /><br />will be <span style="font-size:200%;">HUGE!</span></li></ul>'
+		1 => 'Za boju i veličinu teksta na phpBb forumu možete koristiti sljedeće, no  znajte da kranji rezultat ovisi donekle i o pregledniku korisnika: <ul><li>Promjena boje teksta postiže tako da ju zamotamo u <strong>[color=][/color]</strong>. vi možete odrediti i ime boje (npr. red(za crvenu), blue(za plavu), yellow (za žutu), itd.) ili na primjer. #FFFFFF (za bijelu), #000000(za crnu). Na primjer, za stvaranje crvenog teksta možete koristiti:<br /><br /><strong>[color=red]</strong>Halo!<strong>[/color]</strong><br /><br />or<br /><br /><strong>[color=#FF0000]</strong>Halo!<strong>[/color]</strong><br /><br />Oba će biti kao <span style="color:red">Halo!</span></li><li>Promjena veličine teksta postiže se na sličan način korištenja <strong>[size=][/size]</strong>. Ovaj tag ovisi o samom predlošku korisnika, ali preporuča se numerički format vrijednosti koji predstavlja veličinu teksta u postocima, s početnim 20 (vrlo malo) do 200 (vrlo veliko) kao zadano. Na primjer:<br /><br /><strong>[size=30]</strong>MALO<strong>[/size]</strong><br /><br />bit će kao <span style="font-size:30%;">MALO</span><br /><br />a:<br /><br /><strong>[size=200]</strong>OGROMNO!<strong>[/size]</strong><br /><br />bit će kao <span style="font-size:200%;">OGROMNO!</span></li></ul>'
 	),
 	array(
-		0 => 'Can I combine formatting tags?',
-		1 => 'Yes, of course you can, for example to get someones attention you may write:<br /><br /><strong>[size=200][color=red][b]</strong>LOOK AT ME!<strong>[/b][/color][/size]</strong><br /><br />this would output <span style="color:red;font-size:200%;"><strong>LOOK AT ME!</strong></span><br /><br />We don’t recommend you output lots of text that looks like this though! Remember it is up to you, the poster, to ensure tags are closed correctly. For example the following is incorrect:<br /><br /><strong>[b][u]</strong>This is wrong<strong>[/b][/u]</strong>'
-	),
-	array(
-		0 => '--',
-		1 => 'Quoting and outputting fixed-width text'
-	),
-	array(
-		0 => 'Quoting text in replies',
-		1 => 'There are two ways you can quote text, with a reference or without.<ul><li>When you utilise the Quote function to reply to a post on the board you should notice that the post text is added to the message window enclosed in a <strong>[quote=&quot;&quot;][/quote]</strong> block. This method allows you to quote with a reference to a person or whatever else you choose to put! For example to quote a piece of text Mr. Blobby wrote you would enter:<br /><br /><strong>[quote=&quot;Mr. Blobby&quot;]</strong>The text Mr. Blobby wrote would go here<strong>[/quote]</strong><br /><br />The resulting output will automatically add &quot;Mr. Blobby wrote:&quot; before the actual text. Remember you <strong>must</strong> include the quotation marks &quot;&quot; around the name you are quoting, they are not optional.</li><li>The second method allows you to blindly quote something. To utilise this enclose the text in <strong>[quote][/quote]</strong> tags. When you view the message it will simply show the text within a quotation block.</li></ul>'
-	),
-	array(
-		0 => 'Outputting code or fixed width data',
-		1 => 'If you want to output a piece of code or in fact anything that requires a fixed width, e.g. Courier type font you should enclose the text in <strong>[code][/code]</strong> tags, e.g.<br /><br /><strong>[code]</strong>echo &quot;This is some code&quot;;<strong>[/code]</strong><br /><br />All formatting used within <strong>[code][/code]</strong> tags is retained when you later view it. PHP syntax highlighting can be enabled using <strong>[code=php][/code]</strong> and is recommended when posting PHP code samples as it improves readability.'
+		0 => 'Mogu li kombinirati oznake oblikovanja?',
+		1 => 'Da, naravno da možete, na primjer želite li skrenuti posebnu pažnju:<br /><br /><strong>[size=200][color=red][b]</strong>POGLEDAJ ME!<strong>[/b][/color][/size]</strong><br /><br />će biti <span style="color:red;font-size:200%;"><strong>POGLEDAJ ME!</strong></span><br /><br />Mi ipak ne preporučujemo da ih koristite na puno teksta da se ne izgubi sama smisao isticanja! Sjetite se sve ispravno zatvoriti. Na primjer, sljedeće je netočno: :<br /><br /><strong>[B][u]</strong>Ovo je pogrešno<strong>[/b][/u]</strong>'
 	),
 	array(
 		0 => '--',
-		1 => 'Generating lists'
+		1 => 'Citiranje i oblikovanje teksta fiksne širine'
 	),
 	array(
-		0 => 'Creating an Unordered list',
-		1 => 'BBCode supports two types of lists, unordered and ordered. They are essentially the same as their HTML equivalents. An unordered list outputs each item in your list sequentially one after the other indenting each with a bullet character. To create an unordered list you use <strong>[list][/list]</strong> and define each item within the list using <strong>[*]</strong>. For example to list your favourite colours you could use:<br /><br /><strong>[list]</strong><br /><strong>[*]</strong>Red<br /><strong>[*]</strong>Blue<br /><strong>[*]</strong>Yellow<br /><strong>[/list]</strong><br /><br />This would generate the following list:<ul><li>Red</li><li>Blue</li><li>Yellow</li></ul>'
+		0 => 'Citirajući tekst u odgovorima',// <!-- Lopta je okrugla! -->
+		1 => 'Dva su moguća načina citiranja teksta, sa ili bez reference. <ul><li>Kada koristite funkciju citata na forumu primijetit ćete da nakon što dodate tekst isti u <strong>[quote=&quot;&quot;][/quote]</strong> kodu. Ova metoda omogućava citiranje s referencom na osobu ili bilo koga/čega što odlučite staviti! Na primjer, da citirate dio teksta g.Fraceka upišete sljedeće: <br /><br /><strong>[quote=&quot;g.Francek&quot;]</strong>Tekst g.Franceka nalazi se ovdje <strong>[/quote]</strong><br /><br />Rezultirat će sljedećim: &quot;g.Francek je napisao:&quot; prije samog teksta. Zapamtite <strong>morate</strong> uključiti navodnike &quot;&quot; oko imena koje citirate, navodnici nisu opcionalni.</li><li>Sljedeća metoda podrazumijeva slijepo citiranje nečega. Kako bi to postigli umetnete tekst u <strong>[quote][/quote]</strong> tagove. To će rezultirati da poruku vidite kao citat bez ikakvog imena osobe koju citirate.</li></ul>'
 	),
 	array(
-		0 => 'Creating an Ordered list',
-		1 => 'The second type of list, an ordered list, gives you control over what is output before each item. To create an ordered list you use <strong>[list=1][/list]</strong> to create a numbered list or alternatively <strong>[list=a][/list]</strong> for an alphabetical list. As with the unordered list, items are specified using <strong>[*]</strong>. For example:<br /><br /><strong>[list=1]</strong><br /><strong>[*]</strong>Go to the shops<br /><strong>[*]</strong>Buy a new computer<br /><strong>[*]</strong>Swear at computer when it crashes<br /><strong>[/list]</strong><br /><br />will generate the following:<ol style="list-style-type: decimal;"><li>Go to the shops</li><li>Buy a new computer</li><li>Swear at computer when it crashes</li></ol>Whereas for an alphabetical list you would use:<br /><br /><strong>[list=a]</strong><br /><strong>[*]</strong>The first possible answer<br /><strong>[*]</strong>The second possible answer<br /><strong>[*]</strong>The third possible answer<br /><strong>[/list]</strong><br /><br />giving<ol style="list-style-type: lower-alpha"><li>The first possible answer</li><li>The second possible answer</li><li>The third possible answer</li></ol>'
+		0 => 'Izlazni kod ili fiksna širina podataka',
+		1 => 'Ako želite reproducirati dio koda ili nešto što zahtijeva fiksnu širinu, npr vrsta slova Courier trebate staviti tekst <strong>[code][/code]</strong> tag, npr.<br /><br /><strong>[code]</strong>echo &quot;Ovo je nekakav kod&quot;;<strong>[/code]</strong><br /><br />Sva se oblikovanja rade unutar <strong>[code][/code]</strong> oznake i vidljiva su u napisanom. PHP isticanje sintakse može biti omogućeno korištenjem <strong>[code=php][/code]</strong> i preporučuje se pri postanju PHP koda jer poboljšava samu čitljivost.'
+	),
+	array(
+		0 => '--',
+		1 => 'Stvaranje popisa'
+	),
+	array(
+		0 => 'Kreiranje nenumeriranog popisa',
+		1 => 'BBKod podržava dva tipa popisa, nenumerirani i numerirani popis. U stvari su one iste kao i njihovi HTML ekvivalenti. Nenumeriran popis prikazuje svaku stavku na vašem popisu uzastopno jednu za drugom sa grafičkom oznakom. Za to koristite <strong>[list][/list]</strong> i definirate svaku pojedinu stavku koristeći <strong>[*]</strong>. Na primjer za stavljanje tri boje u popis ovako:<br /><br /><strong>[list]</strong><br /><strong>[*]</strong>Crvena<br /><strong>[*]</strong>Plava<br /><strong>[*]</strong>Žuta<br /><strong>[/list]</strong><br /><br />Bit će prikazano kaot:<ul><li>Crvena</li><li>Plava</li><li>Žuta</li></ul>'
+	),
+	array(
+		0 => 'Kreiranje numeriranog popisa',
+		1 => 'Drugi popis, onaj numerirani, pruža vam kontrolu svake pojedine stavke u popisu. Za izradu takvog numeriranog popisa koristite <strong>[list=1][/list]</strong> što će stvoriti popis s brojevima dok dok će <strong>[list=a][/list]</strong> napraviti abecedni popis. Kao i kod nenumerirane za svaku se stavku koristi <strong>[*]</strong>. Na primjer:<br /><br /><strong>[list=1]</strong><br /><strong>[*]</strong>Idi u trgovinu<br /><strong>[*]</strong>Kupi novo računalo<br /><strong>[*]</strong>Opsuj računalo kad ne radi dobro<br /><strong>[/list]</strong><br /><br />što će rezultirati:<ol style="list-style-type: decimal;"><li>Idi u trgovinu</li><li>Kupi novo računalo</li><li>Opsuj računalo kada ne radi dobro</li></ol>Dok se kod abecednog koristi:<br /><br /><strong>[list=a]</strong><br /><strong>[*]</strong>Prvi odgovor<br /><strong>[*]</strong>Drugi odgovor<br /><strong>[*]</strong>Treći odgovor<br /><strong>[/list]</strong><br /><br /> prikazat će se na forumu kao <ol style="list-style-type: lower-alpha"><li>Prvi odgovor</li><li>Drugi odgovor</li><li>Treći odgovor</li></ol>'
 	),
 	// This block will switch the FAQ-Questions to the second template column
 	array(
@@ -78,30 +78,30 @@ $help = array(
 	),
 	array(
 		0 => '--',
-		1 => 'Creating Links'
+		1 => 'Kreiranje linkova'
 	),
 	array(
-		0 => 'Linking to another site',
-		1 => 'phpBB BBCode supports a number of ways of creating URIs (Uniform Resource Indicators) better known as URLs.<ul><li>The first of these uses the <strong>[url=][/url]</strong> tag, whatever you type after the = sign will cause the contents of that tag to act as a URL. For example to link to phpBB.com you could use:<br /><br /><strong>[url=http://www.phpbb.com/]</strong>Visit phpBB!<strong>[/url]</strong><br /><br />This would generate the following link, <a href="http://www.phpbb.com/">Visit phpBB!</a> Please notice that the link opens in the same window or a new window depending on the users browser preferences.</li><li>If you want the URL itself displayed as the link you can do this by simply using:<br /><br /><strong>[url]</strong>http://www.phpbb.com/<strong>[/url]</strong><br /><br />This would generate the following link, <a href="http://www.phpbb.com/">http://www.phpbb.com/</a></li><li>Additionally, phpBB features something called <i>Magic Links</i>, this will turn any syntactically correct URL into a link without you needing to specify any tags or even the leading http://. For example typing www.phpbb.com into your message will automatically lead to <a href="http://www.phpbb.com/">www.phpbb.com</a> being output when you view the message.</li><li>The same thing applies equally to email addresses, you can either specify an address explicitly for example:<br /><br /><strong>[email]</strong>no.one@domain.adr<strong>[/email]</strong><br /><br />which will output <a href="mailto:no.one@domain.adr">no.one@domain.adr</a> or you can just type no.one@domain.adr into your message and it will be automatically converted when you view.</li></ul>As with all the BBCode tags you can wrap URLs around any of the other tags such as <strong>[img][/img]</strong> (see next entry), <strong>[b][/b]</strong>, etc. As with the formatting tags it is up to you to ensure the correct open and close order is following, for example:<br /><br /><strong>[url=http://www.phpbb.com/][img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/url][/img]</strong><br /><br />is <span style="text-decoration: underline">not</span> correct which may lead to your post being deleted so take care.'
-	),
-	array(
-		0 => '--',
-		1 => 'Showing images in posts'
-	),
-	array(
-		0 => 'Adding an image to a post',
-		1 => 'phpBB BBCode incorporates a tag for including images in your posts. Two very important things to remember when using this tag are: many users do not appreciate lots of images being shown in posts and secondly the image you display must already be available on the internet (it cannot exist only on your computer for example, unless you run a webserver!). To display an image you must surround the URL pointing to the image with <strong>[img][/img]</strong> tags. For example:<br /><br /><strong>[img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/img]</strong><br /><br />As noted in the URL section above you can wrap an image in a <strong>[url][/url]</strong> tag if you wish, e.g.<br /><br /><strong>[url=http://www.phpbb.com/][img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/img][/url]</strong><br /><br />would generate:<br /><br /><a href="http://www.phpbb.com/"><img src="http://www.phpbb.com/theme/images/logos/blue/160x52.png" alt="" /></a>'
-	),
-	array(
-		0 => 'Adding attachments into a post',
-		1 => 'Attachments can now be placed in any part of a post by using the new <strong>[attachment=][/attachment]</strong> BBCode, if the attachments functionality has been enabled by a board administrator and if you are given the appropriate permissions to create attachments. Within the posting screen is a drop-down box (respectively a button) for placing attachments inline.'
+		0 => 'Link na drugi web',
+		1 => 'phpBB BBKod podržava više načina stvaranja URI-a (Uniform Resource Indicators) više poznate kao URL-ovi.<ul><li>Prvi od njih koristi <strong>[url=][/url]</strong> tag, bilo što da se unese = bit će prikazano kao URL. Na primjer za link na phpBB.com možete koristiti:<br /><br /><strong>[url=http://www.phpbb.com/]</strong>Posjetite phpBB!<strong>[/url]</strong><br /><br />To će generirati sljedeći link, <a href="http://www.phpbb.com/">Posjetite phpBB!</a> Link se otvara u novom prozoru kako bi korisnik mogao nastaviti i dalje pratiti forum.</li><li>Ako želite URL prikazati kao link možete to učiniti jednostavno pomoću:<br /><br /><strong>[url]</strong>http://www.phpbb.com/<strong>[/url]</strong><br /><br />To će generirati sljedeći link, <a href="http://www.phpbb.com/">http://www.phpbb.com/</a></li><li>Additionally, phpBB ima nešto pod nazivom <i>Magični Link</i>, što pretvara sve upisano kao URL u link bez da pritom korisnik unaša bilo koji tag ili prefiks http://. Na primjer unesete www.phpbb.com u vašu poruku bit će <a href="http://www.phpbb.com/">www.phpbb.com</a> kada pogledate post.</li><li>Ista stvar vrijedi i za e-mail adrese, možete ili navesti adresu primjerice:<br /><br /><strong>[email]</strong>ne.jedna@domena.abc<strong>[/email]</strong><br /><br />koja će reproducirati <a href="mailto:ne.jedna@domena.abc">ne.jedna@domena.abc</a> ili možete ukucati ne.jedna@domena.abc u poruku i ona će se automatski prikazati.</li></ul>Kao i sa svim BBKod oznakama možete omotati URL oko bilo koje druge oznake, kao što su <strong>[img][/img]</strong> (pogledajte sljedeći unos), <strong>[b][/b]</strong>, itd. Kao i kod oznake oblikovanjana vama je da se osigura ispravno otvaranje i zatvaranje, na primjer,:<br /><br /><strong>[url=http://www.phpbb.com/][img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/url][/img]</strong><br /><br />je <span style="text-decoration: underline">neispravno</span> što može dovesti da post bude izbrisan (dakle prizazite).'
 	),
 	array(
 		0 => '--',
-		1 => 'Other matters'
+		1 => 'Prikaz slike u postu'
 	),
 	array(
-		0 => 'Can I add my own tags?',
-		1 => 'If you are an administrator on this board and have the proper permissions, you can add further BBCodes through the Custom BBCodes section.'
+		0 => 'Dodavanje slike u post',
+		1 => 'phpBB BBKod sadrži oznaku za dodavanje slika u postove. Dvije vrlo važne stvari koje trebate zapamtiti kada koristite ovu oznaku su sljedeće: korisnici ne vole baš puno slika u postovima i drugo slika mora biti dostupna na internetu (ne može postojati samo na vašem računalu, npr. ako nije web server!). Za prikaz same slike morate unjeti URL koji vodi na sliku uključivši <strong>[img][/img]</strong> tagove. Na primjer:<br /><br /><strong>[img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/img]</strong><br /><br />Kao što je navedeno u odjeljku iznad URL možete omotati sliku u <strong>[url][/url]</strong> tag ako želite, npr. <br /><br /><strong>[url=http://www.phpbb.com/][img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/img][/url]</strong><br /><br />će generirati:<br /><br /><a href="http://www.phpbb.com/"><img src="http://www.phpbb.com/theme/images/logos/blue/160x52.png" alt="" /></a>'
+	),
+	array(
+		0 => 'Dodavanje privitaka u post',
+		1 => 'Privitke možete postaviti u bilo kojem dijelu posta pomoću novog <strong>[attachment=][/attachment]</strong> BBKoda, ako je funkcija privitaka omogućena i ako su vam dane kao korisniku odgovarajuća dopuštenja. Samo prenesite datoteku unutar sa računala na zaslon posta ili koristite tipku za stavljanje privitaka.'
+	),
+	array(
+		0 => '--',
+		1 => 'Ostala pitanja'
+	),
+	array(
+		0 => 'Mogu li dodati svoje vlastite tagove?',
+		1 => 'Možeš ukoliko imaš korisnički račun sa administratorskim ovlastima, BBKod dodajete preko BBKod sekcije.'
 	),
 );
